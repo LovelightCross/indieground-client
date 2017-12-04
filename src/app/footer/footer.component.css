@@ -5,6 +5,15 @@ right: 0;
 bottom: 0;
 left: 0;
 padding: 1rem;
-
 text-align: center;
+height: 35%;
+}
+
+.footer h1{
+    
+    color: red;
+}
+
+.footer .info{
+display: inline-block;
 }
