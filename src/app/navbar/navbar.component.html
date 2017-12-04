@@ -1,12 +1,14 @@
 
-<mat-toolbar color="warn">
+<mat-toolbar class="navbar" color="warn">
   <mat-toolbar-row>
-    <span>Group Website</span>
+    <h1>Group Website</h1>
   
-  <button mat-button [matMenuTriggerFor]="home">Home</button>
-  <mat-menu #home="matMenu">
-    
-  </mat-menu>
-
+  <span class="nav">
+    <button mat-button>Home</button>
+    <button mat-button>Artists</button>
+    <button mat-button>Shows</button>
+    <button mat-button>Contact Us</button>
+  </span>
+  
   </mat-toolbar-row>
 </mat-toolbar>
