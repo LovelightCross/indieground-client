@@ -1,9 +1,11 @@
 .navbar{
-    position: sticky;
+    position: fixed;
+    margin: -2% auto;
 }
 
 
 
 .nav{
   margin: 55%;
+
 }
