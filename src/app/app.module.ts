@@ -5,24 +5,19 @@ import { MatToolbarModule, MatMenuModule, MatButtonModule, MatIconModule } from 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { FooterComponent } from './footer/footer.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
 
 const routes: Routes = [
 {
-path: 'navbar',
-component: NavbarComponent,
+
 },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    FooterComponent,
     ArtistsComponent,
     HomepageComponent
   ],
