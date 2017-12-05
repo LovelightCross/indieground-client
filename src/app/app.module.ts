@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { ArtistsComponent } from './artists/artists.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 
 const routes: Routes = [
@@ -20,7 +22,9 @@ component: NavbarComponent,
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ArtistsComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
