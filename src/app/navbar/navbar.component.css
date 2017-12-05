@@ -1,11 +1,6 @@
 .navbar{
-<<<<<<< HEAD
     position: sticky;
     background-color: #2D4262;
-=======
-    position: fixed;
-    margin: -2% auto;
->>>>>>> 7bab663b288a765d9b2e52e3552f293b759bd2f7
 }
 
 h1 {
