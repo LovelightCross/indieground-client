@@ -21,6 +21,10 @@ const routes: Routes = [
 {
   path: 'artists',
   component: ArtistsComponent
+},
+{
+  path: 'single-artist',
+  component: SingleArtistComponent
 }
 ];
 
