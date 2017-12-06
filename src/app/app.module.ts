@@ -8,6 +8,10 @@ import { AppComponent } from './app.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { HomeComponent } from './home/home.component';
 import { ArtistComponent } from './artist/artist.component';
+import { SingleArtistComponent } from './single-artist/single-artist.component';
+import { MusicComponent } from './music/music.component';
+import { ShowsComponent } from './shows/shows.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 
 const routes: Routes = [
@@ -29,7 +33,11 @@ const routes: Routes = [
     AppComponent,
     ArtistsComponent,
     HomeComponent,
-    ArtistComponent
+    ArtistComponent,
+    SingleArtistComponent,
+    MusicComponent,
+    ShowsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
