@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { ArtistComponent } from './artist/artist.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,9 @@ const routes: Routes = [
   path: 'artists',
   component: ArtistsComponent
 },
+{ path: 'artist',
+  component: ArtistComponent
+},
 ];
 
 @NgModule({
@@ -30,7 +34,8 @@ const routes: Routes = [
     AppComponent,
     ArtistsComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    ArtistComponent
   ],
   imports: [
     BrowserModule,
