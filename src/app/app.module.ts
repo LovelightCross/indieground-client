@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { HomeComponent } from './home/home.component';
-import { ArtistComponent } from './artist/artist.component';
 import { SingleArtistComponent } from './single-artist/single-artist.component';
 import { MusicComponent } from './music/music.component';
 import { ShowsComponent } from './shows/shows.component';
@@ -22,10 +21,7 @@ const routes: Routes = [
 {
   path: 'artists',
   component: ArtistsComponent
-},
-{ path: 'artist',
-  component: ArtistComponent
-},
+}
 ];
 
 @NgModule({
@@ -33,7 +29,6 @@ const routes: Routes = [
     AppComponent,
     ArtistsComponent,
     HomeComponent,
-    ArtistComponent,
     SingleArtistComponent,
     MusicComponent,
     ShowsComponent,
