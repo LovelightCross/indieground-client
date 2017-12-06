@@ -7,12 +7,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
 {
   path: '',
+  component: LoginComponent
+},
+{
+  path: 'homepage',
   component: HomepageComponent
+},
+{
+  path: 'artists',
+  component: ArtistsComponent
 },
 ];
 
@@ -20,7 +29,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     ArtistsComponent,
-    HomepageComponent
+    HomepageComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
