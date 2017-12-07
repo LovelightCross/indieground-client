@@ -37,8 +37,11 @@ const routes: Routes = [
 {
   path: 'shows',
   component: ShowsComponent
+},
+{
+  path: 'music',
+  component: MusicComponent
 }
-
 ];
 
 @NgModule({
