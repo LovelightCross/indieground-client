@@ -1,4 +1,4 @@
-declare module models {
+// declare module models {
     export interface IArtist {
         id?: string,
         artistName: string,
@@ -41,4 +41,4 @@ declare module models {
         postId?: string,
         body?: string
     }
-}
+// }
