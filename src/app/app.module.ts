@@ -28,6 +28,10 @@ const routes: Routes = [
 {
   path: 'single-artist',
   component: SingleArtistComponent
+},
+{
+  path: 'shows',
+  component: ShowsComponent
 }
 ];
 
