@@ -1,5 +1,14 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 220px;
+    background-color: #73605B;
+}
+
 .artist-card {
     width: 250px;
+    border-radius: 15px;
+    background-color: #2D4262;
 }
 
 .LMavatar {
