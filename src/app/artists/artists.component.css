@@ -4,9 +4,9 @@
 
 .container {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px;
     grid-column-gap: 250px;
-    grid-row-gap: 100px;
+    grid-row-gap: 90px;
     background-color: #73605B;
     justify-content: start;
 }
@@ -22,6 +22,11 @@
     grid-row:2/3;
     min-height:100%;
     justify-content: center
+}
+
+.LLcard {
+    grid-column: 2;
+    grid-row: 3;
 }
 
 .artist-card {
