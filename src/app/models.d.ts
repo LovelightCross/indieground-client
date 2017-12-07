@@ -1,8 +1,10 @@
+declare module models {
     export interface IArtist {
         id?: string,
         artistName: string,
         soundcloudid?: string,
-        genre: string
+        genre: string,
+        avatar: string
     }
     export interface IUser {
         fn: string,
@@ -39,3 +41,4 @@
         postId?: string,
         body?: string
     }
+}

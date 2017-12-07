@@ -1,0 +1,53 @@
+.artist-card {
+    width: 250px;
+}
+
+.LMavatar {
+    background-image: url('https://i.ytimg.com/vi/iRTVj9quTsQ/hqdefault.jpg');
+    background-size: cover;
+}
+
+.LLavatar {
+    background-image: url('http://bit.ly/2BHM85L');
+    background-size: cover;
+}
+
+.ENavatar {
+    background-image: url('http://bit.ly/2Bz1Or8');
+    background-size: cover;
+}
+
+.RDavatar {
+    background-image: url('http://bit.ly/2Aw0QN0');
+    background-size: cover;
+}
+
+.LaMavatar {
+    background-image: url('http://bit.ly/2ApRvIj');
+    background-size: cover;
+}
+
+.KMavatar {
+    background-image: url('http://bit.ly/2zOoXVV');
+    background-size: cover;
+}
+
+.GMavatar {
+    background-image: url('http://bit.ly/2A3iydJ');
+    background-size: cover;
+}
+
+.PSavatar {
+    background-image: url('http://bit.ly/2AMXzLD');
+    background-size: cover;
+}
+
+.C1avatar {
+    background-image: url('http://bit.ly/2jcyDDi');
+    background-size: cover;
+}
+
+.KLavatar {
+    background-image: url('http://bit.ly/2BIp9qT');
+    background-size: cover;
+}
