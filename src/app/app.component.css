@@ -1,41 +1,29 @@
-.navbar{
-    position: sticky;
-    background-color: #2D4262;
-}
-
-h1 {
-  color: #D09683;
-}
-
-.nav{
-  margin: 55%;
-
-}
-
-
-/* Color Themes 
-#363237 (Deep Purple), #2D4262 (Indigo), #73605B (Taupe), #D09683 (Blush) */
-
-.picture{
+.title {
+    background-color: #D09683;
+    height: 50px;
     width: 100%;
-    height: 15em;
+    color: #2D4262;
+    text-align: center;
+    
 }
 
-.footer{
-    background-color: #363237;
-    position: inherit;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: center;
-    height: 9em;
-    }
-    
-    .footer  h1{
-        color: #73605B;
-    }
-    
-    .footer .info{
-    display: inline-block;
-    }
+.second-navbar {
+    background-color: #2D4262 ;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-span {
+    margin: 0 auto;
+}
+
+.first-navbar {
+    display: flex;
+    background-color: #D09683 ;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-buttons {
+    color:#D09683;
+} 
