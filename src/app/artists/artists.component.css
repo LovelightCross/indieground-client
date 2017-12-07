@@ -88,3 +88,12 @@
     margin-left: 13.5%;
     background-color: #73605B;
 }
+
+.button-div {
+    text-align: center;
+}
+
+mat-card-actions {
+    text-align: center;
+    width: 100%;
+}
