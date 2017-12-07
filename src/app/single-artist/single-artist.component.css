@@ -1,17 +1,43 @@
-.ex{
+.artist-profiler{
     background-image: url('http://bit.ly/2jlzMbR');
     background-size: cover;
+    width: 25%;
+    height: 10em;
+    color: purple;
 }
 
-.artist-profiler{
-    background-color: red;
-    width: 15%;
+
+.bio{
+    width: 25%;
 }
 
-.main-feed{
-    left: 19%;
+.card-feeds{
+
     background-color: darkslategrey;
-    width: 77%;
-    margin-top: -29%;
+} 
+
+.feed{
+    width: 50%;
+      margin-top: -36%; 
+   
 }
 
+#head{
+    font-size: 25px;
+    background-color: green;
+    
+}
+
+#head h1{
+    text-indent: 45%;
+    font-size: 25px;
+}
+.example-card {
+    width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
