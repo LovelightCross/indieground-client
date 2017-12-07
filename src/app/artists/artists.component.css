@@ -1,3 +1,7 @@
+#body {
+    background-color:#73605B;
+}
+
 .container {
     display: grid;
     grid-template-columns: 100px 100px 100px;
@@ -66,4 +70,9 @@
 .KLavatar {
     background-image: url('http://bit.ly/2BIp9qT');
     background-size: cover;
+}
+
+.soundcloud-player {
+    margin-left: 13.5%;
+    background-color: #73605B;
 }

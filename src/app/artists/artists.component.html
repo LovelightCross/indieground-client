@@ -1,9 +1,10 @@
-<mat-toolbar style='color: #D09683'>
-    <mat-toolbar-row>
-        <span class="feature">Featured Artists</span>
-    </mat-toolbar-row>
-</mat-toolbar>
-<!-- <mat-card *ngFor="let artist of artists" class='artist-card'>
+<div id='body'>
+    <mat-toolbar style='color: #D09683'>
+        <mat-toolbar-row>
+            <span class="feature">Featured Artists</span>
+        </mat-toolbar-row>
+    </mat-toolbar>
+    <!-- <mat-card *ngFor="let artist of artists" class='artist-card'>
     <ng-container>
         <mat-card-header>
             <div mat-card-avatar class="avatar"> {{ artist.avatar }} </div>
@@ -12,45 +13,45 @@
         </mat-card-header>
     </ng-container>
 </mat-card> -->
-<div class="container">
-    <mat-card class="artist-card">
-        <mat-card-header>
-            <div mat-card-avatar class="LMavatar"></div>
-            <mat-card-title>Love Moor</mat-card-title>
-            <mat-card-subtitle>R&B</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image src="http://bit.ly/2kqSz94" alt="Love Moor photo">
-        <mat-card-actions>
-            <button mat-button routerLink="/single-artist">Profile</button>
-            <button mat-button routerLink="/shows">Shows</button>
-        </mat-card-actions>
-    </mat-card>
-    <mat-card class="artist-card">
-        <mat-card-header>
-            <div mat-card-avatar class="KLavatar"></div>
-            <mat-card-title>Kenny Loften</mat-card-title>
-            <mat-card-subtitle>Hip-Hop</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image src="http://bit.ly/2BIp9qT" alt="Kenny Loften photo">
-        <mat-card-actions>
-            <button mat-button routerLink="/single-artist">Profile</button>
-            <button mat-button routerLink="/shows">Shows</button>
-        </mat-card-actions>
-    </mat-card>
+    <div class="container">
+        <mat-card class="artist-card">
+            <mat-card-header>
+                <div mat-card-avatar class="LMavatar"></div>
+                <mat-card-title>Love Moor</mat-card-title>
+                <mat-card-subtitle>R&B</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="http://bit.ly/2kqSz94" alt="Love Moor photo">
+            <mat-card-actions>
+                <button mat-button routerLink="/single-artist">Profile</button>
+                <button mat-button routerLink="/shows">Shows</button>
+            </mat-card-actions>
+        </mat-card>
+        <mat-card class="artist-card">
+            <mat-card-header>
+                <div mat-card-avatar class="KLavatar"></div>
+                <mat-card-title>Kenny Loften</mat-card-title>
+                <mat-card-subtitle>Hip-Hop</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="http://bit.ly/2BIp9qT" alt="Kenny Loften photo">
+            <mat-card-actions>
+                <button mat-button routerLink="/single-artist">Profile</button>
+                <button mat-button routerLink="/shows">Shows</button>
+            </mat-card-actions>
+        </mat-card>
 
-    <mat-card class="artist-card">
-        <mat-card-header>
-            <div mat-card-avatar class="ENavatar"></div>
-            <mat-card-title>Eugenius Neutron</mat-card-title>
-            <mat-card-subtitle>Hip-Hop</mat-card-subtitle>
-        </mat-card-header>
-        <img mat-card-image src="http://bit.ly/2nARI6W" alt="Eugenius photo">
-        <mat-card-actions>
-            <button mat-button routerLink="/single-artist">Profile</button>
-            <button mat-button routerLink="/shows">Shows</button>
-        </mat-card-actions>
-    </mat-card>
-</div>
+        <mat-card class="artist-card">
+            <mat-card-header>
+                <div mat-card-avatar class="ENavatar"></div>
+                <mat-card-title>Eugenius Neutron</mat-card-title>
+                <mat-card-subtitle>Hip-Hop</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="http://bit.ly/2nARI6W" alt="Eugenius photo">
+            <mat-card-actions>
+                <button mat-button routerLink="/single-artist">Profile</button>
+                <button mat-button routerLink="/shows">Shows</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
     <mat-toolbar class="second-toolbar" style='color: #D09683'>
         <mat-toolbar-row>
             <span>Artists</span>
@@ -142,15 +143,16 @@
                 <button mat-button routerLink="/shows">Shows</button>
             </mat-card-actions>
         </mat-card>
-</div>
+    </div>
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/35127507&amp;color=%23e42454&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true">
-</iframe>
+    <iframe class='soundcloud-player' width="75%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/35127507&amp;color=%23e42454&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true">
+    </iframe>
 
-<!-- <soundcloud [artistId]="{{ artist.soundcloudId }}"></soundcloud> -->
+    <!-- <soundcloud [artistId]="{{ artist.soundcloudId }}"></soundcloud> -->
 
-<div>
-    <a class="twitter-timeline" data-width="220" data-height="1000" data-theme="dark" href="https://twitter.com/Lovel1ght?ref_src=twsrc%5Etfw">Tweets by Lovel1ght</a>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div>
+        <a class="twitter-timeline" data-width="220" data-height="1000" data-theme="dark" href="https://twitter.com/Lovel1ght?ref_src=twsrc%5Etfw">Tweets by Lovel1ght</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
 </div>
 <!-- <soundcloud [artistId]="{{ artist.soundcloudId }}"></soundcloud> -->
