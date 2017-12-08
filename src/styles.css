@@ -21,13 +21,14 @@ body {
    padding-left:0px;
    padding-right: 0px;
    padding-bottom:0px;   /* Height of the footer */
+   background-color: #73605B;
 }
 #footer {
    position:relative;
    bottom:0;
    width:100%;
    height:60px;   /* Height of the footer */
-   background:#2D4262
+   background:#2D4262;
 }
 
 #style-container {
@@ -37,4 +38,9 @@ body {
 .footer{
     color: #D09683;
     text-align: center;
+}
+
+.feed {
+    background-color: #2D4262;
+    width: 50%;
 }

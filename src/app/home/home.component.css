@@ -1,3 +1,26 @@
 img {
     width: 100%;
 }
+
+.feed {
+    margin: 0;
+    position: relative;
+    left: 20em;
+    top: -22.2em;
+}
+
+.feed-card {
+    display: block;
+    background-color: #2D4262;
+    margin: 0 auto;
+
+}
+
+.card-title {
+    text-align: center;
+}
+
+.soundcloud-player {
+    height: 350px;
+    
+}
