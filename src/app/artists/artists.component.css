@@ -1,21 +1,46 @@
+
+#body {
+    background-color:#73605B;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px;
     grid-column-gap: 250px;
-    grid-row-gap: 100px;
+    grid-row-gap: 90px;
     background-color: #73605B;
     justify-content: start;
+}
+
+
+.mat-toolbar-row {
+    justify-content: center;
+    background-color: #D09683;
+    color: #2D4262;
 }
 
 .second-toolbar {
     grid-column: 1/4;
     grid-row:2/3;
+    min-height:100%;
+    justify-content: center
+}
+
+.LLcard {
+    grid-column: 2;
+    grid-row: 3;
+
 }
 
 .artist-card {
     width: 250px;
     border-radius: 30px;
     background-color: #2D4262;
+}
+
+
+.mat-button {
+    align-content: center;
 }
 
 .LMavatar {
@@ -66,4 +91,20 @@
 .KLavatar {
     background-image: url('http://bit.ly/2BIp9qT');
     background-size: cover;
+
+}
+
+.soundcloud-player {
+    margin-left: 13.5%;
+    background-color: #73605B;
+}
+
+.button-div {
+    text-align: center;
+}
+
+mat-card-actions {
+    text-align: center;
+    width: 100%;
+
 }

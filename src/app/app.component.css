@@ -12,6 +12,7 @@
     background-color: #2D4262 ;
     height: 50px;
     width: 100%;
+
 }
 
 .nav-span {
@@ -28,4 +29,8 @@
 .nav-buttons {
     color:#D09683;
 } 
+
+.body {
+    width: 100%;
+}
 
