@@ -1,3 +1,8 @@
+.body {
+    width: auto;
+
+}
+
 img {
     width: 100%;
 }
@@ -7,12 +12,16 @@ img {
     position: relative;
     left: 20em;
     top: -22.2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 40%;
 }
 
 .feed-card {
     display: block;
     background-color: #2D4262;
     margin: 0 auto;
+    
 
 }
 
@@ -22,5 +31,15 @@ img {
 
 .soundcloud-player {
     height: 350px;
+    margin-left: 2em;
+    margin-right: 2em;
     
+}
+
+.headline-card {
+    width: 27%;
+    position: relative;
+    left: 58.5em;
+    top: -149.2em;
+    margin-left: 2em;
 }
