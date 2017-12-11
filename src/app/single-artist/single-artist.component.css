@@ -14,12 +14,19 @@
 .card-feeds{
 
     background-color: darkslategrey;
+
 } 
 
 .feed{
     width: 50%;
       margin-top: -36%; 
    
+
+
+    width: 50%;
+    margin-top: -21em;
+
+
 }
 
 #head{
