@@ -1,9 +1,19 @@
 .contact-form{
-    display: flex;
+    display: table-caption;
     flex-direction: column;
-    
+    margin-left: 37em;
 }
 
-.contact-form > *{
-    width: 100%;
+mat-card{
+    background-color: lightgray
+}
+
+.text-box{
+    
+    overflow: auto;
+}
+
+button{
+   left: 45em;
+    
 }

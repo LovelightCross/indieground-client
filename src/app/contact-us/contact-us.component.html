@@ -1,9 +1,8 @@
-<p>
-  contact-us works!
-</p>
 
-<div class="contact-form">
-  <mat-form-field>
+<mat-card>
+  <div class="contact-form">
+  <form>
+    <mat-form-field>
     <input matInput placeholder="Name">
   </mat-form-field>
 
@@ -11,9 +10,12 @@
     <input matInput placeholder="Email">
   </mat-form-field>
 
-  <mat-form-field>
+  <mat-form-field class="text-box">
     <textarea matInput placeholder="Tell us what you think!"></textarea>
   </mat-form-field>
-
-
+  </form>
+  
 </div>
+
+<button mat-button type="submit">Submit</button>
+</mat-card>
