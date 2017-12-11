@@ -1,47 +1,45 @@
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
 
-.body {
-    width: auto;
+mat-card {
+    box-shadow: none;
+    border-radius: 0;
+}
 
+.item {
+    float: left;
+}
+
+.more {
+    width: 100%;
+}
+
+.headlines {
+    width: 25%;
+}
+
+.feed {
+    width: 50%;
 }
 
 img {
     width: 100%;
 }
 
-.feed {
-    margin: 0;
-    position: relative;
-    left: 20em;
-    top: -22.2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 40%;
+.b2, player {
+    width: 25%;
 }
 
-.feed-card {
-    display: block;
+.sidenav-button-card {
     background-color: #2D4262;
-    margin: 0 auto;
-    
-
 }
 
-.card-title {
-    text-align: center;
-}
 
-.soundcloud-player {
-    height: 350px;
-    margin-left: 2em;
-    margin-right: 2em;
-    
-}
-
-.headline-card {
-    width: 27%;
-    position: relative;
-    left: 58.5em;
-    top: -149.2em;
-    margin-left: 2em;
-
+.sidenav-button {
+    background-color: white;
 }

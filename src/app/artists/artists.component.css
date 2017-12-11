@@ -4,6 +4,7 @@
 }
 
 .container {
+    /* autoprefixer: off */
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-column-gap: 250px;
@@ -20,6 +21,7 @@
 }
 
 .second-toolbar {
+    /* autoprefixer: off */
     grid-column: 1/4;
     grid-row:2/3;
     min-height:100%;
@@ -27,6 +29,7 @@
 }
 
 .LLcard {
+    /* autoprefixer: off */
     grid-column: 2;
     grid-row: 3;
 

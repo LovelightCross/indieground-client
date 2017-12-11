@@ -1,16 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { MatToolbarModule, MatMenuModule, MatButtonModule, MatIconModule, MatCardModule, MatSidenavModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgForOf } from '@angular/common';
 
-
 import { AppComponent } from './app.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { HomeComponent } from './home/home.component';
+import { Ng4TwitterTimelineModule } from 'ng4-twitter-timeline/lib/index';
+
 
 import { SingleArtistComponent } from './single-artist/single-artist.component';
 import { MusicComponent } from './music/music.component';
@@ -60,6 +62,7 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes),
     MatToolbarModule,
+    FormsModule,
     BrowserAnimationsModule,
     MatMenuModule,
     MatButtonModule,
@@ -67,7 +70,9 @@ const routes: Routes = [
     MatIconModule,
     MatCardModule,
     MatSidenavModule,
-    HttpClientModule
+    HttpClientModule,
+
+    Ng4TwitterTimelineModule
   ],
   providers: [ArtistService],
   bootstrap: [AppComponent]
