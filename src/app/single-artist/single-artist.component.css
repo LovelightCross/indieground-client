@@ -6,6 +6,9 @@
     color: purple;
 }
 
+.column.side{
+ width: 45%
+}
 
 
 .bio{
@@ -13,11 +16,11 @@
 }
 
 
-.feed{
+/* .feed{
     width: 50%;
     margin-top: -21em;
     padding-left: 29%;
-}
+} */
 
 #head{
     font-size: 25px;
@@ -30,12 +33,26 @@
     font-size: 25px;
 }
 
-parallax{
-    background-image: url("https://t2.genius.com/unsafe/576x568/https%3A%2F%2Fimages.genius.com%2Ffd399ccf8fa0e754f2460fe5024f8a8f.1000x1000x1.jpg");
-    
-}
   
-  .t-feed{
-       width: 35%;
-      /*float: right; */
+  .column.middle{
+       width: 50%;
+      display: block;
+      margin: auto; 
+  }
+
+  .column{
+      float: left;
+      padding: 10px;
+  }
+
+  .row:after{
+      content: " ";
+      display: table;
+      clear: both;
+  }
+
+  @media(max-width: 600px) {
+      .column.side, .column.middle {
+          width: 100%;
+      }
   }
