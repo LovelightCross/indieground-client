@@ -35,5 +35,7 @@ parallax{
     
 }
   
-  
-  
+  .t-feed{
+       width: 35%;
+      /*float: right; */
+  }

@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
-import { MatToolbarModule, MatMenuModule, MatButtonModule, MatIconModule, MatCardModule, MatSidenavModule } from '@angular/material';
+import { MatToolbarModule, MatMenuModule, MatButtonModule, MatIconModule, MatCardModule, MatSidenavModule, MatFormFieldModule } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgForOf } from '@angular/common';
@@ -45,6 +45,10 @@ const routes: Routes = [
 {
   path: 'music',
   component: MusicComponent
+},
+{
+  path: 'contact-us',
+  component: ContactUsComponent
 }
 
 ];
@@ -69,6 +73,7 @@ const routes: Routes = [
     BrowserAnimationsModule,
     MatMenuModule,
     MatButtonModule,
+    MatFormFieldModule,
 
     MatIconModule,
     MatCardModule,
