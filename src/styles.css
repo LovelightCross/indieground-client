@@ -30,7 +30,7 @@ body {
     width: 50%;
 }
 
-.group:after {
+app-root:after {
     visibility: hidden;
     display: block;
     content: "";

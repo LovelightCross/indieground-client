@@ -21,6 +21,9 @@ import { MusicComponent } from './music/music.component';
 import { ShowsComponent } from './shows/shows.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ArtistService } from './services/artist.sv';
+import { DynamicplayerComponent } from './dynamicplayer/dynamicplayer.component';
+import { SpotifyplayerComponent } from './spotifyplayer/spotifyplayer.component';
+import { SoundcloudplayerComponent } from './soundcloudplayer/soundcloudplayer.component';
 
 
 
@@ -62,6 +65,9 @@ const routes: Routes = [
     MusicComponent,
     ShowsComponent,
     ContactUsComponent,
+    DynamicplayerComponent,
+    SpotifyplayerComponent,
+    SoundcloudplayerComponent,
  
 
   ],
@@ -83,6 +89,9 @@ const routes: Routes = [
     Ng4TwitterTimelineModule
   ],
   providers: [ArtistService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    SoundcloudplayerComponent
+  ]
 })
 export class AppModule { }

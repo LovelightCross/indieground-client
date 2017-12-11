@@ -7,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./single-artist.component.css']
 })
 export class SingleArtistComponent implements OnInit {
-
+  artist: any;
   constructor() { }
 
   ngOnInit() {
+    this.artist = {
+      soundcloudid: '4562420' 
+    };
   }
 
 }
