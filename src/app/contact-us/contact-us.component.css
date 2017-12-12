@@ -1,0 +1,16 @@
+.contact-form{
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 30em;
+}
+
+mat-card{
+    background-color: lightgray;
+    
+}
+
+
+button{
+   left: 45em;
+    
+}

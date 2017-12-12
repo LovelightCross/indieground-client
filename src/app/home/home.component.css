@@ -1,47 +1,84 @@
+.home-group {
+    background-color: #D09683;
+}
 
-.body {
-    width: auto;
 
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+mat-card {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.item {
+    float: left;
+}
+
+.more {
+    width: 100%;
+}
+
+.headlines {
+    width: 25%;
+    background-color: #2D4262;
+}
+
+.headline-card {
+    background-color: #2D4262;
+    color: #D09683;
+}
+
+.feed {
+    width: 50%;
+    background-color: #2D4262;
+}
+
+.feed-card {
+    background-color: #2D4262;
+    color: #D09683;
 }
 
 img {
     width: 100%;
 }
 
-.feed {
-    margin: 0;
-    position: relative;
-    left: 20em;
-    top: -22.2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    width: 40%;
+.b2, player {
+    width: 25%;
 }
 
-.feed-card {
-    display: block;
-    background-color: #2D4262;
-    margin: 0 auto;
-    
+/* .sidenav-button-card {
+    background-color: lightgray;;
+    height: 1000px;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+} */
 
+
+
+.example-container {
+  width: 100%;
+  height: 300px;
+  background-color: #2D4262;
+  color: #D09683;
 }
 
-.card-title {
-    text-align: center;
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-.soundcloud-player {
-    height: 350px;
-    margin-left: 2em;
-    margin-right: 2em;
-    
-}
-
-.headline-card {
-    width: 27%;
-    position: relative;
-    left: 58.5em;
-    top: -149.2em;
-    margin-left: 2em;
-
+.example-sidenav {
+  padding: 20px;
+  background-color:#73605B;
+  color: #363237;
 }

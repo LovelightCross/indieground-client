@@ -1,75 +1,114 @@
-<!-- Homepage Picture -->
-
-
-<body class='body'>
-    <img class="picture" src="http://bit.ly/2BB6Xir" alt="Downtown Birmingham Skyline at Night">
-    <iframe class='soundcloud-player' width="20%" height="300" scrolling="no" frameborder="no" src="http://bit.ly/2AXOn7p"></iframe>
-    <div class='feed'>
-        <mat-card class='feed-card'>
-            <img mat-card--mat-image src='http://bit.ly/2nGRmLW'>
-            <mat-card-title class='card-title'>
-                This Is My First Test Feed Post
-            </mat-card-title>
-            <mat-card-content class='card-content'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni, ab facere nihil non, unde maxime ea nemo dolore nesciunt
-                sint esse debitis voluptatem quos ratione eaque modi? Eos ullam dolorum quas ipsa exercitationem! Voluptate
-                nesciunt vero possimus reprehenderit sapiente.
-            </mat-card-content>
-        </mat-card>
-
-        <mat-card class='feed-card'>
-            <img mat-card--mat-image src='http://bit.ly/2nGRmLW'>
-            <mat-card-title class='card-title'>
-                This Is My Second Test Feed Post
-            </mat-card-title>
-            <mat-card-content class='card-content'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni, ab facere nihil non, unde maxime ea nemo dolore nesciunt
-                sint esse debitis voluptatem quos ratione eaque modi? Eos ullam dolorum quas ipsa exercitationem! Voluptate
-                nesciunt vero possimus reprehenderit sapiente.
-            </mat-card-content>
-        </mat-card>
-
-        <mat-card class='feed-card'>
-            <img mat-card--mat-image src='http://bit.ly/2nGRmLW'>
-            <mat-card-title class='card-title'>
-                This Is My Third Test Feed Post
-            </mat-card-title>
-            <mat-card-content class='card-content'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni, ab facere nihil non, unde maxime ea nemo dolore nesciunt
-                sint esse debitis voluptatem quos ratione eaque modi? Eos ullam dolorum quas ipsa exercitationem! Voluptate
-                nesciunt vero possimus reprehenderit sapiente.
-            </mat-card-content>
-        </mat-card>
-        <mat-card class='feed-card'>
-            <img mat-card--mat-image src='http://bit.ly/2nGRmLW'>
-            <mat-card-title class='card-title'>
-                This Is My Fourth Test Feed Post
-            </mat-card-title>
-            <mat-card-content class='card-content'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni, ab facere nihil non, unde maxime ea nemo dolore nesciunt
-                sint esse debitis voluptatem quos ratione eaque modi? Eos ullam dolorum quas ipsa exercitationem! Voluptate
-                nesciunt vero possimus reprehenderit sapiente.
-            </mat-card-content>
-        </mat-card>
+<div class="home-group">
+    <div class="hero">
+        <img class="picture" src="http://bit.ly/2BB6Xir" alt="Downtown Birmingham Skyline at Night">
     </div>
+    <div class="test-container">
+        <div class="b2 player item">
+            <iframe class='soundcloud-player' width="100%" height="300" scrolling="no" frameborder="no" src="http://bit.ly/2AXOn7p"></iframe>
+            <div class="b3 more item">
+                    <mat-drawer-container class="example-container" autosize>
+                            <mat-drawer #drawer class="example-sidenav" mode="side">
+                              <p>ARTISTS</p>
+                              <hr>
+                              <div>
+                                <p>Love Moor</p>
+                                <p>Kenny Loften</p>
+                                <p>Eugenius Neutron</p>
+                                <p>Richard Daniel</p>
+                                <p>Lauren Michel</p>
+                                <p>G.I. Magus</p>
+                                <p>K.L.U.B. Monsta</p>
+                                <p>Phrasure</p>
+                                <p>C1ub:A.M.</p>
+                                <p>Lovelight The Messenger</p>
+                             </div>
+                            </mat-drawer>
+                          
+                            <div class="example-sidenav-content">
+                                <p>Want To See and Hear More?</p>
+                              <button type="button" mat-button (click)="drawer.toggle()">
+                                Click Here
+                              </button>
+                            </div>
+                          
+                          </mat-drawer-container>
+            </div>
+        </div>
+        <div class="b4 feed item">
+            <mat-card class='feed-card'>
+                <img mat-card--mat-image src='http://bit.ly/2nGRmLW'>
+                <mat-card-title class='card-title'>
+                    This Is My First Test Feed Post
+                </mat-card-title>
+                <mat-card-content class='card-content'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni, ab facere nihil non, unde maxime ea nemo dolore nesciunt
+                    sint esse debitis voluptatem quos ratione eaque modi? Eos ullam dolorum quas ipsa exercitationem! Voluptate
+                    nesciunt vero possimus reprehenderit sapiente.
+                </mat-card-content>
+            </mat-card>
 
-    <div class='headline-div'>
-        <mat-card class='headline-card'>
-            <mat-card-title class="card-title">Top Headlines</mat-card-title>
-            <hr>
-            <mat-card-content>
-                <ul>
-                    <li>FRI July 28th 2017 LBMX July Monthly – Madam B / D Horton / OZU / A DJ Called Phlip at Syndicate Lounge</li>
-                    <li>FRI & Sat Aug 4th & 5th Secret Stages Music Discovery Festival in Birmingham’s Loft district downtown. LOBOTOOMIX partners with Secret Stags every year to program and manage all the Hip Hop and Graffiti at the festival.</li>
-                    <li>FRI Aug 18th 2017 LBMX August Monthly – Kakashi / Youngblood / RDFND feat. D Gut, K1NG ELJAY & Mel. Crozby / with A DJ Called Phlip on the 1s & 2s at Syndicate Lounge</li>
-                    <li>FRI Sep 29th LBMX September Monthly – Erthling / Kenya Latrice / The Monastery / with DJ Rahdu on the 1s & 2s at Syndicate Lounge</li>
-                    <li>FRI Oct 27th 2017 LBMX October Monthly – No Suh Foster / Eugenius / T-Prince / with A DJ Called Phlip on the 1s & 2s at Syndicate Lounge</li>
-                    <li>FRI Nov 24th 2017 (Black Friday) – LBMX 8 Year Anniversary at Saturn
-                            10 acts / 2 stages / 7 hours of Hip Hop in a mini-fest atmosphere.</li>
-                    <li>FRI Dec 15th 2017 LBMX Dec Monthly – Shaun Judah / Adj. (Of Grammar Tree) / Cutt Dogg / with DJ Rahdu on the 1s & 2s at Syndicate Lounge</li>
-                </ul>
-            </mat-card-content>
-        </mat-card>
+            <mat-card class='feed-card'>
+                <img mat-card--mat-image src='http://bit.ly/2nGRmLW'>
+                <mat-card-title class='card-title'>
+                    This Is My First Test Feed Post
+                </mat-card-title>
+                <mat-card-content class='card-content'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni, ab facere nihil non, unde maxime ea nemo dolore nesciunt
+                    sint esse debitis voluptatem quos ratione eaque modi? Eos ullam dolorum quas ipsa exercitationem! Voluptate
+                    nesciunt vero possimus reprehenderit sapiente.
+                </mat-card-content>
+            </mat-card>
+
+            <mat-card class='feed-card'>
+                <img mat-card--mat-image src='http://bit.ly/2nGRmLW'>
+                <mat-card-title class='card-title'>
+                    This Is My First Test Feed Post
+                </mat-card-title>
+                <mat-card-content class='card-content'>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni, ab facere nihil non, unde maxime ea nemo dolore nesciunt
+                    sint esse debitis voluptatem quos ratione eaque modi? Eos ullam dolorum quas ipsa exercitationem! Voluptate
+                    nesciunt vero possimus reprehenderit sapiente.
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <div class="b5 headlines item">
+            <mat-card class='headline-card'>
+                <mat-card-title class="card-title">Top Headlines</mat-card-title>
+                <hr>
+                <mat-card-content>
+                    <ul>
+                        <li>FRI July 28th 2017 LBMX July Monthly – Madam B / D Horton / OZU / A DJ Called Phlip at Syndicate
+                            Lounge
+                        </li>
+                        <li>FRI & Sat Aug 4th & 5th Secret Stages Music Discovery Festival in Birmingham’s Loft district downtown.
+                            LOBOTOOMIX partners with Secret Stags every year to program and manage all the Hip Hop and Graffiti
+                            at the festival.</li>
+                        <li>FRI Aug 18th 2017 LBMX August Monthly – Kakashi / Youngblood / RDFND feat. D Gut, K1NG ELJAY & Mel.
+                            Crozby / with A DJ Called Phlip on the 1s & 2s at Syndicate Lounge</li>
+                        <li>FRI Sep 29th LBMX September Monthly – Erthling / Kenya Latrice / The Monastery / with DJ Rahdu on
+                            the 1s & 2s at Syndicate Lounge</li>
+                        <li>FRI Oct 27th 2017 LBMX October Monthly – No Suh Foster / Eugenius / T-Prince / with A DJ Called Phlip
+                            on the 1s & 2s at Syndicate Lounge</li>
+                        <li>FRI Nov 24th 2017 (Black Friday) – LBMX 8 Year Anniversary at Saturn 10 acts / 2 stages / 7 hours
+                            of Hip Hop in a mini-fest atmosphere.</li>
+                        <li>FRI Dec 15th 2017 LBMX Dec Monthly – Shaun Judah / Adj. (Of Grammar Tree) / Cutt Dogg / with DJ Rahdu
+                            on the 1s & 2s at Syndicate Lounge</li>
+                    </ul>
+                </mat-card-content>
+            </mat-card>
+        </div>
+        <div class="item twitter">
+            <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: 'lovel1ght' }" [opts]="{tweetLimit: 5}"></ng4-twitter-timeline>
+
+        </div>
+
+
+        <!-- <div class="box b7">7</div>
+            <div class="box b8">8</div>
+            <div class="box b9">9</div>
+            <div class="box b10">10</div>
+            <div class="box b11">11</div>
+            <div class="box b12">12</div> 
+            <div class="box b13">13</div> -->
     </div>
-</body>
-
+</div>

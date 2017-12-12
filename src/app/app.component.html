@@ -1,26 +1,20 @@
-<div id="body">
-  <div id="style-container">
-    <mat-toolbar class="navbars">
-    <mat-toolbar-row class="first-navbar">
-      <span class="title">IndieGround Music</span>
-    </mat-toolbar-row>
-
-      <mat-toolbar-row class="second-navbar">
-        <span class="nav-span">
-          <button mat-button class="nav-buttons" routerLink='/'>Home</button>
-          <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
-          <button mat-button class="nav-buttons">Shows</button>
-          <button mat-button class="nav-buttons">Contact Us</button>
-        </span>
-      </mat-toolbar-row>
-    </mat-toolbar>
-  </div>
-
-  <router-outlet></router-outlet>
-
-  <div class='footer'id="footer">
-    <p>&copy; IndieGround Entertainment</p>
-  </div>
+<mat-toolbar class="navbars">
+  <mat-toolbar-row class="first-navbar">
+    <span class="title">IndieGround Music</span>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="second-navbar">
+    <span class="nav-span">
+      <button mat-button class="nav-buttons" routerLink='/'>Home</button>
+      <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
+      <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
+      <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
+      <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
+    </span>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>
+<div class="footer">
+  <p>&copy; IndieGround Entertainment</p>
 </div>
 
 

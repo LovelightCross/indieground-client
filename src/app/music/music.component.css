@@ -1,10 +1,26 @@
 .soundcloud-player {
-    margin-left: 13.5%;
-    background-color: #73605B;
+    
+    margin-left: 1em;
+
 }
 
 .mat-toolbar-row {
     justify-content: center;
     background-color: #D09683;
     color: #2D4262;
+}
+
+.spotify-div {
+    float:right;
+    margin-right: 1em;
+    height: 700px;
+    
+}
+
+.spotify-player {
+    display:block;
+}
+
+.bandcamp-player {
+    display:block;
 }

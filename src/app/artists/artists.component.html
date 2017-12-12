@@ -1,11 +1,81 @@
+<div class='left-div'>
+    <!-- <mat-card class='feat-artist-header'>
+        <mat-card-content>
+        <p>FEATURED ARTISTS</p>
+        </mat-card-content>
+    </mat-card> -->
+    <mat-card class='feat-artist-card'>
+        <mat-card-header>
+            <p class='feat-artist-header'>FEATURED ARTISTS</p>
+        </mat-card-header>
+        <mat-card-content>
+            <div class='artists-container'>
+            <div class='feat-artist-div'>
+            <img mat-card-image src='http://bit.ly/2l1YpxV' class='LM-avatar featured-img'>
+            <mat-card-title class='title'>Love Moor</mat-card-title>
+            </div>
+            <div class='feat-artist-div'>
+            <img mat-card-image src='http://bit.ly/2jcyDDi' class='AM-avatar featured-img'>
+            <mat-card-title class='title'>C1ub:A.M.</mat-card-title>
+            </div>
+            <div class='feat-artist-div'>
+            <img mat-card-image src="http://bit.ly/2BIp9qT" class='KL-avatar featured-img'>
+            <mat-card-title class='title'>Kenny Loften</mat-card-title>
+            </div>
+            <div class='feat-artist-div'>
+            <img mat-card-image src="http://bit.ly/2BRWlMP" class='RD-avatar featured-img'>
+            <mat-card-title class='title'>Richard Daniel</mat-card-title>
+            </div>
+            <div class='feat-artist-div'>
+            <img mat-card-image src="http://bit.ly/2BWSzkJ" class='GI-avatar featured-img'>
+            <mat-card-title class='title'>G.I. Magus</mat-card-title>
+            </div>
+            <div class='feat-artist-div'>
+            <img mat-card-image src="http://bit.ly/2BbgUWL" class='LaM-avatar featured-img'>
+            <mat-card-title class='title'>Lauren Michel</mat-card-title>
+            </div>  
+            </div>  
 
+            <div class='spotify-container'>
+                    <iframe class='spotify-player' src="https://open.spotify.com/embed?uri=spotify:user:1216720754:playlist:2xrIZVz1WCZqkiggGv8Rnt" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+    
+                    <iframe class='spotify-player' src="https://open.spotify.com/embed?uri=spotify:user:1216720754:playlist:2oUAe3qzvGF6pC4P0JR9kH" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+    
+                    <iframe class='spotify-player' src="https://open.spotify.com/embed?uri=spotify:user:1216720754:playlist:6tsDgedDWNUFI4AojfaeNx" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+    
+                    <iframe class='spotify-player'src="https://open.spotify.com/embed?uri=spotify:user:1216720754:playlist:7CikefiOu8srCCRhmkN6vH" width="300" height="300" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+        </mat-card-content>
+
+        
+    </mat-card>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 <div id='body'>
     <mat-toolbar style='color: #D09683'>
         <mat-toolbar-row>
             <span class="feature">Featured Artists</span>
         </mat-toolbar-row>
     </mat-toolbar>
-    <!-- <mat-card *ngFor="let artist of artists" class='artist-card'>
+     <mat-card *ngFor="let artist of artists" class='artist-card'>
     <ng-container>
         <mat-card-header>
             <div mat-card-avatar class="avatar"> {{ artist.avatar }} </div>
@@ -13,7 +83,7 @@
             <mat-card-subtitle> {{ artist.genre }} </mat-card-subtitle>
         </mat-card-header>
     </ng-container>
-</mat-card> -->
+</mat-card> 
 
     <div class="container">
         <mat-card class="artist-card">
@@ -53,6 +123,15 @@
                 <button mat-button routerLink="/shows">Shows</button>
             </mat-card-actions>
         </mat-card>
+    </div>
+    <div class="item twitter">
+        <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: 'lovel1ght' }" [opts]="{tweetLimit: 1}"></ng4-twitter-timeline>
+    </div>
+    <div class="item twitter">
+        <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: 'lovemoorson' }" [opts]="{tweetLimit: 1}"></ng4-twitter-timeline>
+    </div>
+    <div class="item twitter">
+        <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: 'andiameugenius' }" [opts]="{tweetLimit: 1}"></ng4-twitter-timeline>
     </div>
 
     <mat-toolbar class="second-toolbar" style='color: #D09683'>
@@ -171,7 +250,7 @@
         <iframe class='soundcloud-player' width="25%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/21143935&amp;color=%235c5c5c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
 
 </div>
-
+-->
 
 
 
