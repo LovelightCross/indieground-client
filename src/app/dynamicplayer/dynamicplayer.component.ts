@@ -10,8 +10,9 @@ import { SpotifyplayerComponent } from '../spotifyplayer/spotifyplayer.component
 })
 export class DynamicplayerComponent implements OnInit {
   @Input() artistId: string;
-  loaded: boolean;
+
   @ViewChild("container", { read: ViewContainerRef }) container;
+  
   constructor(
     private cfr: ComponentFactoryResolver,
     private vc: ViewContainerRef,

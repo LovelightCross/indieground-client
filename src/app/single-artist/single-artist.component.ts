@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ArtistService } from '../services/artist.sv';
+import { IArtist } from '../models';
 
 @Component({
   selector: 'app-single-artist',
