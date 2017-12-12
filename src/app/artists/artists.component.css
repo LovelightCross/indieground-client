@@ -6,13 +6,17 @@
 .container {
     /* autoprefixer: off */
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 10px;
     grid-column-gap: 250px;
     grid-row-gap: 90px;
     background-color: #73605B;
     justify-content: start;
 }
 
+.twitter {
+    float: right;
+
+}
 
 .mat-toolbar-row {
     justify-content: center;
