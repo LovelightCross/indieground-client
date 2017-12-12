@@ -1,3 +1,60 @@
+.left-div {
+    width: 25%;
+    justify-items: center;
+    text-align: center;
+    height:100%;
+    float:left;
+    margin: 5px;
+    
+}
+
+.LM-avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.middle-div {
+    height: 100%;
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin: 5px;
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+}
+
+.show-img {
+    width:300px;
+    height:300px;
+}
+
+.right-div {
+    width:22%;
+    float:left;
+    margin: 5px;
+}
+
+.sc-div{
+    width: 100%;
+    text-align: center;
+}
+
+.feed-card {
+    margin-top: 5px;
+}
+ 
+
+
+
+
+
+
+
+/* 
 .artist-profiler{
     background-image: url("https://t2.genius.com/unsafe/576x568/https%3A%2F%2Fimages.genius.com%2Ffd399ccf8fa0e754f2460fe5024f8a8f.1000x1000x1.jpg");
     background-size: cover;
@@ -16,11 +73,11 @@
 }
 
 
-/* .feed{
+.feed{
     width: 50%;
     margin-top: -21em;
     padding-left: 29%;
-} */
+} 
 
 #head{
     font-size: 25px;
@@ -55,4 +112,4 @@
       .column.side, .column.middle {
           width: 100%;
       }
-  }
+  }  */

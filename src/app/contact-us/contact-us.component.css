@@ -1,11 +1,12 @@
 .contact-form{
-    display: table-caption;
+    display: flex;
     flex-direction: column;
     margin-left: 37em;
 }
 
 mat-card{
-    background-color: lightgray
+    background-color: lightgray;
+    width: 40%;
 }
 
 .text-box{
