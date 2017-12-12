@@ -24,13 +24,13 @@
         on the 1s & 2s at Syndicate Lounge</li>
 </ul>
 </div> -->
-    <mat-card class='show' *ngFor="let show of shows">
+    <mat-card class='show-card' *ngFor="let show of shows">
     <ng-container>
-        <mat-card-header>
-            <mat-card-title> {{ show.artist }} </mat-card-title>
-            <mat-card-subtitle> {{ show.venue }} </mat-card-subtitle>
-            <mat-card-subtitle> {{ show.datetime }} </mat-card-subtitle>
-            <mat-card-subtitle>{{ show.ticketinfo }}</mat-card-subtitle>
+        <mat-card-header class='show'>
+            <mat-card-title><h1>{{ show.artist }}</h1></mat-card-title>
+            <mat-card-subtitle><h3>{{ show.venue }}</h3></mat-card-subtitle>
+            <mat-card-subtitle><h3>{{ show.datetime }}</h3></mat-card-subtitle>
+            <mat-card-subtitle><h3>Ticket Price: {{ show.ticketinfo }}</h3></mat-card-subtitle>
         </mat-card-header>
     </ng-container>
 </mat-card> 

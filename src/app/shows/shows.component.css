@@ -3,10 +3,14 @@
     text-decoration: underline;
 }
 
-.show {
+.show-card {
     margin: 0 auto;
     width: 50%;
-    text-align: center;
     background-color: #2D4262;
     color: #D09683;
+}
+
+.show {
+    text-align: center;
+    justify-content: center;
 }
