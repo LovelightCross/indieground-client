@@ -1,18 +1,14 @@
 .contact-form{
-    display: flex;
-    flex-direction: column;
-    margin-left: 37em;
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 30em;
 }
 
 mat-card{
     background-color: lightgray;
-    width: 40%;
+    
 }
 
-.text-box{
-    
-    overflow: auto;
-}
 
 button{
    left: 45em;
