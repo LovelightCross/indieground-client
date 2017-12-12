@@ -1,4 +1,4 @@
-<div class="venues">
+<!-- <div class="venues">
   <ul>
     <li>FRI July 28th 2017 LBMX July Monthly – Madam B / D Horton / OZU / A DJ Called Phlip at Syndicate
         Lounge
@@ -23,11 +23,10 @@
     <li>FRI Dec 15th 2017 LBMX Dec Monthly – Shaun Judah / Adj. (Of Grammar Tree) / Cutt Dogg / with DJ Rahdu
         on the 1s & 2s at Syndicate Lounge</li>
 </ul>
-</div>
-<div class='show'>
-    <mat-card *ngFor="let show of shows">
+</div> -->
+    <mat-card class='show' *ngFor="let show of shows">
     <ng-container>
-        <mat-card-header class='show'>
+        <mat-card-header>
             <mat-card-title> {{ show.artist }} </mat-card-title>
             <mat-card-subtitle> {{ show.venue }} </mat-card-subtitle>
             <mat-card-subtitle> {{ show.datetime }} </mat-card-subtitle>
@@ -35,4 +34,3 @@
         </mat-card-header>
     </ng-container>
 </mat-card> 
-</div>
