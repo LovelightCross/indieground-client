@@ -24,6 +24,9 @@ import { ArtistService } from './services/artist.sv';
 import { DynamicplayerComponent } from './dynamicplayer/dynamicplayer.component';
 import { SpotifyplayerComponent } from './spotifyplayer/spotifyplayer.component';
 import { SoundcloudplayerComponent } from './soundcloudplayer/soundcloudplayer.component';
+import { ShowsService } from './services/shows.sv';
+import { VenuesService } from './services/venues.sv';
+import { UserService } from './services/users.sv';
 
 
 
@@ -88,7 +91,7 @@ const routes: Routes = [
 
     Ng4TwitterTimelineModule
   ],
-  providers: [ArtistService],
+  providers: [ArtistService, ShowsService, VenuesService, UserService],
   bootstrap: [AppComponent],
   entryComponents: [
     SoundcloudplayerComponent
