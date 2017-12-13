@@ -76,6 +76,10 @@ const routes: Routes = [
 {
   path: 'gi-magus',
   component: GiMagusComponent
+},
+{
+  path: 'lauren-michel',
+  component: LaurenMichelComponent
 }
 
 ];
