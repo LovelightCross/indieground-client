@@ -7,6 +7,7 @@ import { MatToolbarModule, MatMenuModule, MatButtonModule, MatIconModule, MatCar
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgForOf } from '@angular/common';
+import { FormBuilder } from '@angular/forms/src/form_builder';
 
 import { AppComponent } from './app.component';
 import { ArtistsComponent } from './artists/artists.component';

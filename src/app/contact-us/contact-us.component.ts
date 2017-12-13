@@ -8,7 +8,9 @@ import { Location } from '@angular/common';
 })
 export class ContactUsComponent implements OnInit {
 
-  constructor( private location: Location) { }
+  constructor( 
+    private location: Location
+  ) { }
   
 
   ngOnInit() {
