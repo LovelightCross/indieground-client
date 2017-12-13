@@ -26,12 +26,11 @@ import { SoundcloudplayerComponent } from './soundcloudplayer/soundcloudplayer.c
 import { ShowsService } from './services/shows.sv';
 import { VenuesService } from './services/venues.sv';
 import { UserService } from './services/users.sv';
-import { ClubAmComponent } from './club-am/club-am.component';
-import { KennyLoftenComponent } from './kenny-loften/kenny-loften.component';
-import { RichardDanielComponent } from './richard-daniel/richard-daniel.component';
-import { GiMagusComponent } from './gi-magus/gi-magus.component';
-import { LaurenMichelComponent } from './lauren-michel/lauren-michel.component';
-import { ProfileComponent } from './profile/profile.component';
+import { ClubAmComponent } from './profiles/club-am/club-am.component';
+import { KennyLoftenComponent } from './profiles/kenny-loften/kenny-loften.component';
+import { RichardDanielComponent } from './profiles/richard-daniel/richard-daniel.component';
+import { GiMagusComponent } from './profiles/gi-magus/gi-magus.component';
+import { LaurenMichelComponent } from './profiles/lauren-michel/lauren-michel.component';
 
 
 
@@ -96,7 +95,6 @@ const routes: Routes = [
     RichardDanielComponent,
     GiMagusComponent,
     LaurenMichelComponent,
-    ProfileComponent,
  
 
   ],
