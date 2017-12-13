@@ -55,6 +55,10 @@ const routes: Routes = [
   component: ShowsComponent
 },
 {
+path: 'music',
+component: MusicComponent
+},
+{
   path: 'contact-us',
   component: ContactUsComponent
 },
