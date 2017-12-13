@@ -26,6 +26,7 @@ import { SoundcloudplayerComponent } from './soundcloudplayer/soundcloudplayer.c
 import { ShowsService } from './services/shows.sv';
 import { VenuesService } from './services/venues.sv';
 import { UserService } from './services/users.sv';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
@@ -65,6 +66,7 @@ const routes: Routes = [
     DynamicplayerComponent,
     SpotifyplayerComponent,
     SoundcloudplayerComponent,
+    ProfileComponent,
  
 
   ],
