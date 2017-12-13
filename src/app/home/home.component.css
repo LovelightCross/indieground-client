@@ -82,3 +82,12 @@ img {
   background-color:#73605B;
   color: #363237;
 }
+
+a {
+    text-decoration: none;
+    color: #D09683;
+}
+
+a:hover {
+    color: hotpink;
+}
