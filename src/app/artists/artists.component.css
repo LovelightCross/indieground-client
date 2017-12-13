@@ -70,8 +70,13 @@ mat-card-content {
     
 }
 
+mat-card-header {
+    color: #74c6de;
+}
+
 mat-card-title {
     display:block;
+    color: #74c6de;
 }
 
 
