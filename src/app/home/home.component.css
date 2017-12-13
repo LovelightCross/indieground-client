@@ -2,7 +2,9 @@
     background-color: #212121;
 }
 
-
+.picture {
+    height: 30em;
+}
 
 .box {
     background-color: #444;
