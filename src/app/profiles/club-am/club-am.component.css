@@ -5,7 +5,13 @@
     height:100%;
     float:left;
     margin: 5px;
-    
+    background-color: #636363;
+    color: #74c6de;
+}
+
+mat-card {
+    background-color: #636363;
+    color: #74c6de;
 }
 
 .AM-avatar {
@@ -20,11 +26,15 @@
     width: 50%;
     text-align: center;
     margin: 5px;
+    background-color: #636363;
+    color: #74c6de;
 }
 
 .title {
     font-size: 70px;
     text-align: center;
+    background-color: #636363;
+    color: #74c6de;
 }
 
 .show-img {
@@ -36,6 +46,8 @@
     width:22%;
     float:left;
     margin: 5px;
+    background-color: #636363;
+    color: #74c6de;
 }
 
 .sc-div{
@@ -45,6 +57,8 @@
 
 .feed-card {
     margin-top: 5px;
+    background-color: #636363;
+    color: #74c6de;
 }
  
 

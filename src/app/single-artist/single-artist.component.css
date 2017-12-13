@@ -46,6 +46,11 @@
 .feed-card {
     margin-top: 5px;
 }
+
+mat-card {
+    background-color: #636363;
+    color: #74c6de;
+}
  
 
 

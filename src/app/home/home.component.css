@@ -37,12 +37,12 @@ mat-card {
 
 .feed {
     width: 50%;
-    background-color: #160f0f;
+    background-color: #636363;
 }
 
 .feed-card {
-    background-color: #141313;
-    color: #74c6de;;
+    background-color: #636363;
+    color: #74c6de;
 }
 
 img {

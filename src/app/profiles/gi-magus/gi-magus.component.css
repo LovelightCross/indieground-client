@@ -8,6 +8,11 @@
     
 }
 
+mat-card {
+    background-color: #636363;
+    color:#74c6de;
+}
+
 .AM-avatar {
     height: 150px;
     width: 150px;
