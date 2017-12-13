@@ -17,7 +17,6 @@ import { Ng4TwitterTimelineModule } from 'ng4-twitter-timeline/lib/index';
 
 
 import { SingleArtistComponent } from './single-artist/single-artist.component';
-import { MusicComponent } from './music/music.component';
 import { ShowsComponent } from './shows/shows.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ArtistService } from './services/artist.sv';
@@ -32,6 +31,7 @@ import { KennyLoftenComponent } from './kenny-loften/kenny-loften.component';
 import { RichardDanielComponent } from './richard-daniel/richard-daniel.component';
 import { GiMagusComponent } from './gi-magus/gi-magus.component';
 import { LaurenMichelComponent } from './lauren-michel/lauren-michel.component';
+import { ProfileComponent } from './profile/profile.component';
 
 
 
@@ -52,10 +52,6 @@ const routes: Routes = [
 {
   path: 'shows',
   component: ShowsComponent
-},
-{
-  path: 'music',
-  component: MusicComponent
 },
 {
   path: 'contact-us',
@@ -90,7 +86,6 @@ const routes: Routes = [
     ArtistsComponent,
     HomeComponent,
     SingleArtistComponent,
-    MusicComponent,
     ShowsComponent,
     ContactUsComponent,
     DynamicplayerComponent,
@@ -101,6 +96,7 @@ const routes: Routes = [
     RichardDanielComponent,
     GiMagusComponent,
     LaurenMichelComponent,
+    ProfileComponent,
  
 
   ],

@@ -22,13 +22,10 @@
         zip?: string
     }
     export interface IShow {
-        showId?: string,
-        venueId?: string,
-        name: string,
-        startTime?: string,
-        endTime?: string,
-        price?: string,
-        url?: string,
+        artist?: string,
+        venue?: string,
+        datetime?: string,
+        ticketinfo?: string
     }
     export interface IPost {
         title?: string,

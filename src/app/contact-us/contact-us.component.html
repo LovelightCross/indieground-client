@@ -1,9 +1,12 @@
 
-  <p>As the Birmingham's local music and audio platform, Indieground lets people discover and enjoy the greatest selection of music from the most diverse creator community on earth. Since launching in 2017, the platform will become renown for its unique content and features, including the ability to listen to music and learn about local artists, as well as unearth breakthrough tracks, raw demos, tweets and more. This is made possible by an open platform that directly connects musicians and their fans across the globe. Musicians use Indieground to both spread their content with a global audience thanks to the Indieground community.</p>
 
 <mat-card>
+  <p>As the Birmingham's local music and audio platform, Indieground lets people discover and enjoy the greatest selection of music from the most diverse creator community on earth. Since launching in 2017, the platform will become renown for its unique content and features, including the ability to listen to music and learn about local artists, as well as unearth breakthrough tracks, raw demos, tweets and more. This is made possible by an open platform that directly connects musicians and their fans across the globe. Musicians use Indieground to both spread their content with a global audience thanks to the Indieground community.</p>
+
+
   <div class="contact-form">
   <form>
+    
     <mat-form-field>
     <input matInput placeholder="Name">
   </mat-form-field>
@@ -12,12 +15,12 @@
     <input matInput placeholder="Email">
   </mat-form-field>
 
-  <mat-form-field class="text-box">
-    <textarea matInput placeholder="Tell us what you think!"></textarea>
+  <mat-form-field class="text-area">
+    <textarea matInput rows="4" cols="50" placeholder="Tell us what you think!"></textarea>
   </mat-form-field>
   </form>
   
 </div>
 
-<button mat-button type="submit">Submit</button>
+<button mat-button type="submit" (click)="onClick()">Submit</button>
 </mat-card>

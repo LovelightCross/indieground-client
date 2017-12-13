@@ -15,11 +15,11 @@ export class ShowsService {
 
     shows: Array<any> = [];
 
-    getShows(): Observable<any> {
+    getShowInfo(): Observable<any> {
         return this.http.get(this.api);
     }
 
-    createShows(): Observable<any> {
+    createShowInfo(): Observable<any> {
         return this.http.post(this.api, this.shows);
     }
 }

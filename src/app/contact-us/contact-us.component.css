@@ -1,7 +1,11 @@
 .contact-form{
-    /* display: flex;
-    flex-direction: column; */
-    margin-left: 30em;
+     display: table-caption;
+    
+    margin-left: 37em;
+}
+
+.text-area{
+width: 30em;
 }
 
 mat-card{
@@ -14,3 +18,4 @@ button{
    left: 45em;
     
 }
+

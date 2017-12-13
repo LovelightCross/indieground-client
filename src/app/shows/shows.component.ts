@@ -14,13 +14,13 @@ export class ShowsComponent implements OnInit {
     private showsService: ShowsService
   ) { }
 
-  getShows(): void {
-    this.showsService.getShows()
+  getShowInfo(): void {
+    this.showsService.getShowInfo()
     .subscribe((Response) => this.shows = Response);
   }
 
   ngOnInit() {
-    this.getShows();
+    this.getShowInfo();
   }
 
 }
