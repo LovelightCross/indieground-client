@@ -9,16 +9,17 @@
 .left-div {
     width: 80%;
     text-align: center;
-    justify-content: center;
+     justify-content: center;
     justify-items: center; 
-    float:left;
+    float:left; 
+    
     margin:5px;
     background-color: #636363;
 }
 
 .right-div {
     width: 18%;
-    float: left;
+    float: right;
     margin:5px;
     background-color: #636363;
 }
@@ -32,14 +33,15 @@
     justify-content: center;
     justify-items: center;
     background-color: #636363;
+    display: grid;
 }
 mat-card-header {
     justify-content: center;
     align-items: center;
     padding: 0;
     font-size:50px;
-    text-align: center;
-    margin-left:5.5em;
+    text-align: left;
+    margin-left:0.5em;
 }
 
 p{
@@ -86,6 +88,8 @@ mat-card-title {
     text-align: center;
     justify-content: center;
     justify-items: center;
+    
+    
 }
 
 .spotify-container {
