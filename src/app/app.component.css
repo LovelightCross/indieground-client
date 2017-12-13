@@ -10,9 +10,13 @@
 
 .second-navbar {
     background-color: #636363;
-    height: 50px;
+    height: 3em;
     width: 100%;
 
+}
+
+.mat-toolbar-multiple-rows {
+    min-height: none !important;
 }
 
 .nav-span {
