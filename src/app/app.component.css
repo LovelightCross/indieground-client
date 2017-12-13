@@ -1,16 +1,15 @@
 
 .title {
-    background-color: #D09683;
+    background-color: #212121;
     height: 50px;
     width: 100%;
-    color: #2D4262;
+    color: #74c6de;
     text-align: center;
     margin-top: 12px;
-    
 }
 
 .second-navbar {
-    background-color: #2D4262 ;
+    background-color: #636363;
     height: 50px;
     width: 100%;
 
@@ -22,13 +21,13 @@
 
 .first-navbar {
     display: flex;
-    background-color: #D09683 ;
+    background-color: #212121 ;
     height: 50px;
     width: 100%;
 }
 
 .nav-buttons {
-    color:#D09683;
+    color:#74c6de;
 } 
 
 .body {
