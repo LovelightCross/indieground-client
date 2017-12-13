@@ -28,6 +28,10 @@ import { ShowsService } from './services/shows.sv';
 import { VenuesService } from './services/venues.sv';
 import { UserService } from './services/users.sv';
 import { ClubAmComponent } from './club-am/club-am.component';
+import { KennyLoftenComponent } from './kenny-loften/kenny-loften.component';
+import { RichardDanielComponent } from './richard-daniel/richard-daniel.component';
+import { GiMagusComponent } from './gi-magus/gi-magus.component';
+import { LaurenMichelComponent } from './lauren-michel/lauren-michel.component';
 
 
 
@@ -60,6 +64,18 @@ const routes: Routes = [
 {
   path: 'club-am',
   component: ClubAmComponent
+},
+{
+  path: 'kenny-loften',
+  component: KennyLoftenComponent
+},
+{
+  path: 'richard-daniel',
+  component: RichardDanielComponent
+},
+{
+  path: 'gi-magus',
+  component: GiMagusComponent
 }
 
 ];
@@ -77,6 +93,10 @@ const routes: Routes = [
     SpotifyplayerComponent,
     SoundcloudplayerComponent,
     ClubAmComponent,
+    KennyLoftenComponent,
+    RichardDanielComponent,
+    GiMagusComponent,
+    LaurenMichelComponent,
  
 
   ],
