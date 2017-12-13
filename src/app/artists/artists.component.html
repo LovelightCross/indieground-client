@@ -1,5 +1,8 @@
+<!-- Change to Music Page -->
+
+
 <div class='left-div'>
-    <mat-card class='feat-artist-card'>
+    <!-- <mat-card class='feat-artist-card'>
         <mat-card-header>
             <p class='feat-artist-header'>FEATURED ARTISTS</p>
         </mat-card-header>
@@ -46,11 +49,39 @@
             </div>
 
         </mat-card-content>
-       
+    </mat-card> -->
 
-    </mat-card>
+    <div class="b3 more item">
+            <mat-drawer-container class="example-container" autosize>
+                    <mat-drawer #drawer class="example-sidenav" mode="side">
+                      <p>ARTISTS</p>
+                      <hr>
+                      <div class="people">
+                        <button mat-button routerLink='/single-artist'>Love Moor</button>
+                        <button mat-button routerLink='/kenny-loften'>Kenny Loften</button>
+                        <button mat-button routerLink='/single-artist'>Eugenius Neutron</button>
+                        <button mat-button routerLink='/richard-daniel'>Richard Daniel</button>
+                        <button mat-button routerLink='/lauren-michel'>Lauren Michel</button>
+                        <button mat-button routerLink='/gi-magus'>G.I. Magus</button>
+                        <button mat-button routerLink='/single-artist'>K.L.U.B. Monsta</button>
+                        <button mat-button routerLink='/single-artist'>Phrasure</button>
+                        <button mat-button routerLink='/club-am'>C1ub:A.M.</button>
+                        <button mat-button routerLink='/single-artist'>Lovelight The Messenger</button>
+                     </div>
+                    </mat-drawer>
+                  
+                    <div class="example-sidenav-content">
+                        <p>Want To See and Hear More?</p>
+                      <button type="button" mat-button (click)="drawer.toggle()">
+                        Click Here
+                      </button>
+                    </div>
+                  
+                  </mat-drawer-container>
+    </div>
+
     <mat-card>
-        <mat-card-header >Spotlight</mat-card-header>
+    
     
         <div class='spotify-container'>
             <iframe class='spotify-player' src="https://open.spotify.com/embed?uri=spotify:user:1216720754:playlist:2xrIZVz1WCZqkiggGv8Rnt"
@@ -71,9 +102,9 @@
 
 <div class='right-div'>
     <mat-card>
-        <div class="item twitter">
+        <!-- <div class="item twitter">
             <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: 'IndieGroundEnt' }" [opts]="{tweetLimit: 2}"></ng4-twitter-timeline>
-        </div>
+        </div> -->
     </mat-card>
 </div>
 

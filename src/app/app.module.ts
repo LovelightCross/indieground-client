@@ -32,6 +32,7 @@ import { KennyLoftenComponent } from './profiles/kenny-loften/kenny-loften.compo
 import { RichardDanielComponent } from './profiles/richard-daniel/richard-daniel.component';
 import { GiMagusComponent } from './profiles/gi-magus/gi-magus.component';
 import { LaurenMichelComponent } from './profiles/lauren-michel/lauren-michel.component';
+import { MusicComponent } from './music/music.component';
 
 
 
@@ -96,6 +97,7 @@ const routes: Routes = [
     RichardDanielComponent,
     GiMagusComponent,
     LaurenMichelComponent,
+    MusicComponent,
  
 
   ],
