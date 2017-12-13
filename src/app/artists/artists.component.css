@@ -13,13 +13,14 @@
     justify-items: center; 
     float:left;
     margin:5px;
-    
+    background-color: #636363;
 }
 
 .right-div {
     width: 18%;
     float: left;
     margin:5px;
+    background-color: #636363;
 }
 
 /* .big-div {
@@ -30,6 +31,7 @@
     text-align: center;
     justify-content: center;
     justify-items: center;
+    background-color: #636363;
 }
 mat-card-header {
     justify-content: center;
@@ -58,6 +60,7 @@ mat-card {
     width:100;
     justify-content: center;
     justify-items: center;
+    background-color: #636363;
 
 }
 
@@ -85,6 +88,7 @@ mat-card-title {
     width:100%;
     display:flex;
     height:20%;
+    color: #636363;
 }
 
 .spotify-player {
