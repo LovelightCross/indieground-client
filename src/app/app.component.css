@@ -35,4 +35,7 @@
     width: 100%;
 }
 
-
+.navbar {
+    position: sticky;
+    
+}
