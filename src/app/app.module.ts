@@ -17,7 +17,6 @@ import { Ng4TwitterTimelineModule } from 'ng4-twitter-timeline/lib/index';
 
 
 import { SingleArtistComponent } from './single-artist/single-artist.component';
-import { MusicComponent } from './music/music.component';
 import { ShowsComponent } from './shows/shows.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ArtistService } from './services/artist.sv';
@@ -49,10 +48,6 @@ const routes: Routes = [
   component: ShowsComponent
 },
 {
-  path: 'music',
-  component: MusicComponent
-},
-{
   path: 'contact-us',
   component: ContactUsComponent
 }
@@ -65,7 +60,6 @@ const routes: Routes = [
     ArtistsComponent,
     HomeComponent,
     SingleArtistComponent,
-    MusicComponent,
     ShowsComponent,
     ContactUsComponent,
     DynamicplayerComponent,
