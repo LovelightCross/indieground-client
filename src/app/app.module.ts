@@ -27,6 +27,7 @@ import { SoundcloudplayerComponent } from './soundcloudplayer/soundcloudplayer.c
 import { ShowsService } from './services/shows.sv';
 import { VenuesService } from './services/venues.sv';
 import { UserService } from './services/users.sv';
+import { ClubAmComponent } from './club-am/club-am.component';
 
 
 
@@ -55,6 +56,10 @@ const routes: Routes = [
 {
   path: 'contact-us',
   component: ContactUsComponent
+},
+{
+  path: 'club-am',
+  component: ClubAmComponent
 }
 
 ];
@@ -71,6 +76,7 @@ const routes: Routes = [
     DynamicplayerComponent,
     SpotifyplayerComponent,
     SoundcloudplayerComponent,
+    ClubAmComponent,
  
 
   ],
