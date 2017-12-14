@@ -61,7 +61,10 @@ mat-card {
     background-color: #636363;
     color: white;
 }
- 
+
+mat-card-subtitle {
+    color: white;
+}
 
 
 

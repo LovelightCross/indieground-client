@@ -1,47 +1,60 @@
 <mat-toolbar class="navbar">
-    <span class="nav-span">
-        <button mat-button class="nav-buttons" routerLink='/'>Home</button>
-        <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
-        <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
-        <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
-        <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
-    </span>
+  <span class="nav-span">
+    <button mat-button class="nav-buttons" routerLink='/'>Home</button>
+    <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
+    <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
+    <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
+    <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
+  </span>
 </mat-toolbar>
-<div class="b3 more item">
-    <mat-drawer-container class="example-container" autosize>
-            <mat-drawer #drawer class="example-sidenav" mode="side">
-              <p>ARTISTS</p>
-              <hr>
-              <div class="people">
-                <button mat-button routerLink='/single-artist'>Love Moor</button>
-                <button mat-button routerLink='/kenny-loften'>Kenny Loften</button>
-                <button mat-button routerLink='/richard-daniel'>Richard Daniel</button>
-                <button mat-button routerLink='/lauren-michel'>Lauren Michel</button>
-                <button mat-button routerLink='/gi-magus'>G.I. Magus</button>
-                <button mat-button routerLink='/club-am'>C1ub:A.M.</button>
-             </div>
-            </mat-drawer>
-          
-            <div class="example-sidenav-content">
-                <p>Want To See and Hear More?</p>
-              <button type="button" mat-button (click)="drawer.toggle()">
-                Click Here
-              </button>
-            </div>
-          
-          </mat-drawer-container>
+
+<h1 class='latest'>Latest Tracks</h1>
+<div class='tracks'>
+  <iframe width="25%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337398688&amp;color=%23847c7c&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+  <iframe width="25%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/37734292&amp;color=%23605c64&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+  <iframe width="25%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/284643272&amp;color=%23605c64&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+  <iframe width="25%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/304161775&amp;color=%23605c64&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+  <iframe width="25%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/299153393&amp;color=%23605c64&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+  <iframe width="25%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/331145864&amp;color=%23605c64&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
 </div>
 
-<div class="container">
 
-<a href="/single-artist">
-<div class="profile-pic">
-      <img  src="http://bit.ly/2C4aA0t">
-  <div class="middle">
-    <div class="text"> Love Moor</div>
-  </div>
-</div>
- </a>
+
+
+<!-- <div class="b3 more item">
+  <mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <p>ARTISTS</p>
+      <hr>
+      <div class="people">
+        <button mat-button routerLink='/single-artist'>Love Moor</button>
+        <button mat-button routerLink='/kenny-loften'>Kenny Loften</button>
+        <button mat-button routerLink='/richard-daniel'>Richard Daniel</button>
+        <button mat-button routerLink='/lauren-michel'>Lauren Michel</button>
+        <button mat-button routerLink='/gi-magus'>G.I. Magus</button>
+        <button mat-button routerLink='/club-am'>C1ub:A.M.</button>
+      </div>
+    </mat-drawer>
+
+    <div class="example-sidenav-content">
+      <p>Want To See and Hear More?</p>
+      <button type="button" mat-button (click)="drawer.toggle()">
+        Click Here
+      </button>
+    </div>
+  </mat-drawer-container>
+</div> -->
+
+<!-- <div class="container">
+
+  <a href="/single-artist">
+    <div class="profile-pic">
+      <img src="http://bit.ly/2C4aA0t">
+      <div class="middle">
+        <div class="text"> Love Moor</div>
+      </div>
+    </div>
+  </a>
 
   <a href="/club-am">
     <div class="profile-pic">
@@ -54,7 +67,7 @@
 
   <a href="/kenny-loften">
     <div class="profile-pic">
-      <img  src="http://bit.ly/2nXqJCy">
+      <img src="http://bit.ly/2nXqJCy">
       <div class="middle">
         <div class="text">Kenny Lofton</div>
       </div>
@@ -88,20 +101,26 @@
     </div>
   </a>
 
-</div>
+</div> -->
 
-  <!-- soundcloud/spotify apis-->
+<!-- soundcloud/spotify apis-->
 <hr>
 <div class="music-videos">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/jHR83IXL4L8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/jHR83IXL4L8" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/afTStQjOmdk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/afTStQjOmdk" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/JDef8XdncJc" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/JDef8XdncJc" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bXHUHiUcthw" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bXHUHiUcthw" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/943bzGmAypk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/943bzGmAypk" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bIPO8VNgjWo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bIPO8VNgjWo" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
 </div>

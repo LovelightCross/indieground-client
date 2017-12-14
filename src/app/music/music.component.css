@@ -12,6 +12,15 @@
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.tracks {
+    margin-left: 15em;
+}
+
 .nav-span {
     flex: 1 1 auto;
 }
