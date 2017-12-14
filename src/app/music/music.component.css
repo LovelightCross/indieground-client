@@ -46,8 +46,9 @@
       /* profile pic */
       .profile-pic{
         /* margin: 10%; */
-        position: relative;
+        /* position: relative; */
         width: 50%;
+        margin: 0 auto;
       }
 
       img{
