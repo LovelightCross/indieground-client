@@ -8,13 +8,13 @@
     flex: 1 1 auto;
 }
 
-p {
-    color: #74c6de;
+h1 {
+    color: white;
 }
 
 img {
    border-radius: 50%;
-   width: 25%;
+   width: 40%;
 }
 
 .artists {
