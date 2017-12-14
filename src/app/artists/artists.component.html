@@ -8,10 +8,90 @@
     </span>
 </mat-toolbar>
 <br>
-<br>
-<br>
-<br>
-<ul class='artists'>
+
+ <div class="b3 more item">
+  <mat-drawer-container class="example-container" autosize>
+    <mat-drawer #drawer class="example-sidenav" mode="side">
+      <p>ARTISTS</p>
+      <hr>
+      <div class="people">
+        <button mat-button routerLink='/single-artist'>Love Moor</button>
+        <button mat-button routerLink='/kenny-loften'>Kenny Loften</button>
+        <button mat-button routerLink='/richard-daniel'>Richard Daniel</button>
+        <button mat-button routerLink='/lauren-michel'>Lauren Michel</button>
+        <button mat-button routerLink='/gi-magus'>G.I. Magus</button>
+        <button mat-button routerLink='/club-am'>C1ub:A.M.</button>
+      </div>
+    </mat-drawer>
+
+    <div class="example-sidenav-content">
+      <p>Want To See and Hear More?</p>
+      <button type="button" mat-button (click)="drawer.toggle()">
+        Click Here
+      </button>
+    </div>
+  </mat-drawer-container>
+</div> 
+
+ <div class="container">
+
+  <a href="/single-artist">
+    <div class="profile-pic">
+      <img src="http://bit.ly/2C4aA0t">
+      <div class="middle">
+        <div class="text"> Love Moor</div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/club-am">
+    <div class="profile-pic">
+      <img src="http://bit.ly/2AChZrt">
+      <div class="middle">
+        <div class="text">C1UB A.M.</div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/kenny-loften">
+    <div class="profile-pic">
+      <img src="http://bit.ly/2nXqJCy">
+      <div class="middle">
+        <div class="text">Kenny Lofton</div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/richard-daniel">
+    <div class="profile-pic">
+      <img src="http://bit.ly/2AVumf6">
+      <div class="middle">
+        <div class="text">Richard Daniel</div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/gi-magus">
+    <div class="profile-pic">
+      <img src="http://bit.ly/2C50FHJ">
+      <div class="middle">
+        <div class="text">G.I Magus</div>
+      </div>
+    </div>
+  </a>
+
+  <a href="/lauren-michel">
+    <div class="profile-pic">
+      <img src="http://bit.ly/2AmNj9C">
+      <div class="middle">
+        <div class="text">Lauren Michel</div>
+      </div>
+    </div>
+  </a>
+
+</div>
+
+<!-- <ul class='artists'>
     <button mat-button routerLink='/single-artist'>
         <img src="http://bit.ly/2l1YpxV" alt="">
         <h1>Love Moor</h1>
@@ -36,7 +116,7 @@
         <img src="http://bit.ly/2BbgUWL" alt="">
         <h1>Lauren Michel</h1>
     </button>
-</ul>
+</ul> -->
 
 
 <!-- <div class='container'>
