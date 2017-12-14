@@ -79,10 +79,15 @@
       }
 
       .text{
-          background-color: #4CAF50;
+          background-color:  black;
           color: white;
           font-size: 32px;
           padding: 16px 32px;
+      }
+
+      .container{
+          display: inline-flex;
+          flex-flow: wrap;
       }
      /* img:hover { 
            /* border:2px solid red; 
