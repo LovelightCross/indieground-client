@@ -37,7 +37,7 @@ mat-card {
     text-align: center;
     margin: 5px;
     background-color: #636363;
-    color: #74c6de;
+    color: greenyellow;
 }
 
 .title {
@@ -57,7 +57,15 @@ mat-card {
     float:left;
     margin: 5px;
     background-color: #636363;
-    color: #74c6de;
+    color: greenyellow;
+}
+
+mat-card-subtitle {
+    color: greenyellow;
+}
+
+p {
+    color: greenyellow;
 }
 
 .sc-div{
@@ -68,12 +76,26 @@ mat-card {
 .feed-card {
     margin-top: 5px;
     background-color: #636363;
-    color: #74c6de;
+    color: greenyellow;
 }
  
+.background{
+    background-image: url('http://bit.ly/2nWdQbO');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
 
-
-
+.background h1 {
+    color: greenyellow;
+    text-transform: uppercase;
+    font-size: 5em;
+    border: 2px solid yellow;
+}
 
 
 
@@ -137,14 +159,5 @@ mat-card {
           width: 100%;
       }
   }  */
-  .background{
-    background-image: url('http://bit.ly/2nWdQbO');
-  background-size: cover;
-  background-position: center;
-  height: 50vh;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-  }
+
   
