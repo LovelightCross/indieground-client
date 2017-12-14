@@ -1,5 +1,6 @@
 .navbar {
-    background-color: #636363;
+    background-color: #212121;
+    color: #74c6de;
     text-align: center;
 }
 
@@ -7,14 +8,8 @@
     flex: 1 1 auto;
 }
 
-.wrapper {
-    min-height: 100% !important;
-    position: relative !important;
-    padding-top: 0 !important;
-    width: 981px;
-    margin: 0 auto;
-    display: table;
-    table-layout: fixed;
+p {
+    color: #74c6de;
 }
 
 img {
@@ -23,7 +18,10 @@ img {
 }
 
 .artists {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-gap: 185px;
+    margin-left: 500px;
 }
 
 
