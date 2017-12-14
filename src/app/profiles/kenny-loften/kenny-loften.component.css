@@ -141,17 +141,5 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
-<<<<<<< Updated upstream
-  justify-content: center;  
-  }
-
-  .background h1 {
-    color: red;
-    text-transform: uppercase;
-    font-size: 5em;
-    border: 2px solid yellow;
-}
-=======
   justify-content: center;
   }
->>>>>>> Stashed changes
