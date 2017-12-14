@@ -9,6 +9,15 @@
     color: #74c6de;
 }
 
+.navbar {
+    background-color: #636363;
+    text-align: center;
+}
+
+.nav-span {
+    flex: 1 1 auto;
+}
+
 mat-card {
     background-color: #636363;
     color: #74c6de;

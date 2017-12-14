@@ -7,6 +7,14 @@
     margin: 5px;
     
 }
+.navbar {
+    background-color: #636363;
+    text-align: center;
+}
+
+.nav-span {
+    flex: 1 1 auto;
+}
 
 .LM-avatar {
     height: 150px;

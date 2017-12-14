@@ -6,6 +6,15 @@
     width: 100%;
 } 
 
+.navbar {
+    background-color: #636363;
+    text-align: center;
+}
+
+.nav-span {
+    flex: 1 1 auto;
+}
+
 .people{
     /* display: grid;  */
         text-align: center;

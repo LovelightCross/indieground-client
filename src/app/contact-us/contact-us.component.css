@@ -19,3 +19,11 @@ button{
     
 }
 
+.navbar {
+    background-color: #636363;
+    text-align: center;
+}
+
+.nav-span {
+    flex: 1 1 auto;
+}
