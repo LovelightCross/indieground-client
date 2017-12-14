@@ -8,6 +8,10 @@
     
 }
 
+.left-div img{
+    width: 110%
+}
+
 .navbar {
     background-color: #212121;
     color: white;
@@ -128,3 +132,14 @@ mat-card {
           width: 100%;
       }
   }  */
+
+  .background{
+    background-image: url('http://bit.ly/2jV4DvX');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  }
