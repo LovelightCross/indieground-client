@@ -18,6 +18,22 @@
     flex: 1 1 auto;
 }
 
+.background {
+    background-image: url('http://bit.ly/2ynhhrW');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background h1 {
+    color: fuchsia;
+    text-align: left;
+}
+
 .LM-avatar {
     height: 150px;
     width: 150px;
@@ -58,12 +74,12 @@
 }
 
 mat-card {
-    background-color: #636363;
-    color: white;
+    background-color: white;
+    color: fuchsia;
 }
 
 mat-card-subtitle {
-    color: white;
+    color: fuchsia;
 }
 
 
