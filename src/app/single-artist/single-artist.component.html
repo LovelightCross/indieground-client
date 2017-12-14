@@ -1,73 +1,63 @@
 <mat-toolbar class="navbar">
-    <span class="nav-span">
-        <button mat-button class="nav-buttons" routerLink='/'>Home</button>
-        <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
-        <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
-        <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
-        <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
-    </span>
+  <span class="nav-span">
+    <button mat-button class="nav-buttons" routerLink='/'>Home</button>
+    <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
+    <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
+    <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
+    <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
+  </span>
 </mat-toolbar>
 
-<div class='background'>
-  <h1>Love Moor</h1>
-</div>
+<div class='background'></div>
 
 <div class='left-div'>
-<mat-card>
-  <img mat-card-img class="LM-avatar" src='http://bit.ly/2l1YpxV'>
-  <mat-card-title>Love Moor</mat-card-title>
-  <mat-card-subtitle>Neo-Soul Songstress</mat-card-subtitle>
-<hr>
-<mat-card-subtitle>Basic Info</mat-card-subtitle>
-<mat-card-content>
-  <p>Erica Andrew ( Born October 11, 1990), better known by her stage name Love Moor, is an American singer-songwriter.
-    She was born in Brooklyn, NY, grew up in Miami , Fl , and later relocated to Birmingham, Al. Love Moor released
-    her first extended play (EP), titled Blu Polka Dots, in the summer of 2015. Love Moor, through great vibes and
-    beautiful energy became the first lady of Loner Dreamer Lover Rebel (LDLR) in 2014. Love Moor is a neo soul singer
-    whose music can be described as Alternative R&B, with elements of soul, hip hop, minimalist R&B, a little flow,
-    and some island flavor.</p>
-</mat-card-content>
-</mat-card>
-</div>
-<!-- 
-<div class='middle-div'>
   <mat-card>
-    <mat-card-title class='title'>LOVE MOOR</mat-card-title>
+    <img mat-card-img class="LM-avatar" src='http://bit.ly/2l1YpxV'>
+    <mat-card-title>Love Moor</mat-card-title>
+    <mat-card-subtitle>Neo-Soul Songstress</mat-card-subtitle>
+    <hr>
+    <mat-card-subtitle>Basic Info</mat-card-subtitle>
+    <mat-card-content>
+      <p>Erica Andrew ( Born October 11, 1990), better known by her stage name Love Moor, is an American singer-songwriter.
+        She was born in Brooklyn, NY, grew up in Miami , Fl , and later relocated to Birmingham, Al. Love Moor released her
+        first extended play (EP), titled Blu Polka Dots, in the summer of 2015. Love Moor, through great vibes and beautiful
+        energy became the first lady of Loner Dreamer Lover Rebel (LDLR) in 2014. Love Moor is a neo soul singer whose music
+        can be described as Alternative R&B, with elements of soul, hip hop, minimalist R&B, a little flow, and some island
+        flavor.</p>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class='feed-card'>
+      <img mat-card-image class='show-img' src='http://bit.ly/2jQiio8'>
+      <p>The Monastery Presents “The Basement” (Charity Edition)</p>
+      <p>Saturday, December 9 at 7 PM - 11 PM</p>
+      <p>@ The Firehouse</p>
+      <p>$7 Before 8pm -- $10 at the Door</p>
     </mat-card>
     <mat-card class='feed-card'>
-    <mat-card-subtitle >SHOW</mat-card-subtitle>
-  <img mat-card-image class='show-img' src='http://bit.ly/2jQiio8'>
-    <p>The Monastery Presents “The Basement” (Charity Edition)</p>
-    <p>Saturday, December 9 at 7 PM - 11 PM</p>
-    <p>@ The Firehouse</p>
-    <p>$7 Before 8pm -- $10 at the Door</p>
-  </mat-card>
-
-  <mat-card class='feed-card'>
-    <mat-card-subtitle>MEDIA</mat-card-subtitle>
-    <h3>Check out Love Doing What She Does Best!</h3>
-    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FAndIAmEugenius%2Fvideos%2F1840599312917789%2F&show_text=0&width=476" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-  </mat-card>
-
-  <mat-card class='feed-card'>
-  <mat-card-subtitle>SHOW</mat-card-subtitle>
-  <img mat-card-image class='show-img' src='http://bit.ly/2ANIpDy'>
-  <p>One Year Anniversary and Holiday Get Down!</p>
-  <p>Friday, December 1 at 7 PM - 10 PM</p>
-  <p>@ Club Duquette</p>
-  <p>FREE!</p>
-</mat-card>
+      <img mat-card-image class='show-img' src='http://bit.ly/2ANIpDy'>
+      <p>One Year Anniversary and Holiday Get Down!</p>
+      <p>Friday, December 1 at 7 PM - 10 PM</p>
+      <p>@ Club Duquette</p>
+      <p>FREE!</p>
+    </mat-card>
+</div>
+<div class='middle-div'>
+  <h1 class='middle-text'>Music</h1>
+  <iframe width="960" height="430" src="https://www.youtube.com/embed/iRTVj9quTsQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="960" height="430" src="https://www.youtube.com/embed/htj6C-johyo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <iframe width="960" height="430" src="https://www.youtube.com/embed/afTStQjOmdk" frameborder="0" gesture="media" allow="encrypted-media"
+  allowfullscreen></iframe>
 </div>
 
 <div class='right-div'>
   <mat-card>
-      <div class="item twitter">
-          <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: 'lovemoorson' }" [opts]="{tweetLimit: 5}"></ng4-twitter-timeline>
-      </div>
+    <div class="item twitter">
+      <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: 'lovemoorson' }" [opts]="{tweetLimit: 5}"></ng4-twitter-timeline>
+    </div>
   </mat-card>
 </div>
 
-<div class='sc-div'>
+<!-- <div class='sc-div'>
 <iframe class='soundcloud-player' width="75%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/344433875&amp;color=%23e44870&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 </div> -->
 

@@ -73,6 +73,10 @@
     margin-top: 5px;
 }
 
+.middle-text {
+    color: fuchsia;
+}
+
 mat-card {
     background-color: white;
     color: fuchsia;
