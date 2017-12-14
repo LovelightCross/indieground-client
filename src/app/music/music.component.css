@@ -22,8 +22,8 @@
     }
 
     .example-container {
-        /* width: 50%;*/
-        height: 150px; 
+        /* width: 50%;
+        height: 300px; */
          background-color: #636363;
         color: #212121; 
       }
@@ -46,9 +46,8 @@
       /* profile pic */
       .profile-pic{
         /* margin: 10%; */
-        /* position: relative; */
+        position: relative;
         width: 50%;
-        margin: 0 auto;
       }
 
       img{
@@ -92,7 +91,7 @@
       }
 
       .music-videos{
-          margin: 0 85px auto;
+          margin: 0 auto;
       }
      /* img:hover { 
            /* border:2px solid red; 
