@@ -7,22 +7,25 @@
     flex: 1 1 auto;
 }
 
-.container {
-   display: grid;
-   border-radius: 25px;
-   width: 15%;
+.wrapper {
+    min-height: 100% !important;
+    position: relative !important;
+    padding-top: 0 !important;
+    width: 981px;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
 }
 
-.lovemoor {
-    background-image: url('http://bit.ly/2l1YpxV');
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+img {
+   border-radius: 50%;
+   width: 25%;
 }
+
+.artists {
+    display: inline-block;
+}
+
 
 /* .featured-img {
     height: 100px;
