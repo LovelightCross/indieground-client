@@ -13,7 +13,7 @@ import { AppComponent } from './app.component';
 import { ArtistsComponent } from './artists/artists.component';
 import { HomeComponent } from './home/home.component';
 import { Ng4TwitterTimelineModule } from 'ng4-twitter-timeline/lib/index';
-import { Ng2CarouselamosModule } from 'ng2-carouselamos';
+
 
 
 
@@ -121,7 +121,7 @@ const routes: Routes = [
     MatCardModule,
     MatSidenavModule,
     HttpClientModule,
-    Ng2CarouselamosModule,
+    
     Ng4TwitterTimelineModule
   ],
   providers: [ArtistService, ShowsService, VenuesService, UserService],
