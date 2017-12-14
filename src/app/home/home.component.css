@@ -6,6 +6,11 @@
     height: 30em;
 }
 
+.entrance {
+    position: absolute;
+    margin-top: 3em;
+}
+
 .hero {
     background-image: url('https://i.ytimg.com/vi/e4Kqybqtb0A/maxresdefault.jpg');
     background-size: cover;
@@ -34,7 +39,6 @@
 }
 
 button {
-    border: 2px solid white;
     color: white;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;

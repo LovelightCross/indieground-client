@@ -20,8 +20,8 @@ img {
 .artists {
     display: grid;
     grid-template-columns: 600px 600px;
-    grid-gap: 185px;
-    margin-left: 500px;
+    grid-gap: 100px;
+    margin-left: 250px;
 }
 
 
