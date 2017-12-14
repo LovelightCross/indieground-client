@@ -12,6 +12,7 @@ body {
    padding:0;
    min-height: 100vh;
    background-color: #636363;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer {
@@ -19,7 +20,7 @@ body {
    height:60px;   /* Height of the footer */
    background:#212121;
    text-align: center;
-   color: #74c6de;
+   color: white;
    display: flex;
    align-content: center;
    justify-content: center;
