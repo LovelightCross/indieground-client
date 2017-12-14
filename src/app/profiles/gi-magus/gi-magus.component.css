@@ -131,3 +131,16 @@ mat-card {
           width: 100%;
       }
   }  */
+
+  .background{
+    background-image: url('http://bit.ly/2Cko2Ov');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  }
+
+  
