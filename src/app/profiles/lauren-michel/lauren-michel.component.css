@@ -5,6 +5,7 @@
     height:100%;
     float:left;
     margin: 5px;
+    margin-top: 5px;
     
 }
 
@@ -18,9 +19,39 @@
     flex: 1 1 auto;
 }
 
+.background {
+    background-image: url('http://bit.ly/2C80g7J');
+    background-size: cover;
+    background-position: top;
+    height: 50vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background h1 {
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 5em;
+    border: 2px solid yellow;
+}
+
+.middle-text {
+    color: yellow;
+}
+
 mat-card {
-    background-color: #636363;
-    color: #74c6de;
+    background-color: black;
+    color: yellow;
+}
+
+mat-card-subtitle {
+    color: yellow;
+}
+
+p {
+    color: yellow;
 }
 
 .LaM-avatar {
@@ -58,9 +89,9 @@ mat-card {
     text-align: center;
 }
 
-.feed-card {
+/* .feed-card {
     margin-top: 5px;
-}
+} */
  
 
 
