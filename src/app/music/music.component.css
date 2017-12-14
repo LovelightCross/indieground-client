@@ -41,3 +41,56 @@
         color: #74c6de;
         
       }
+
+      /* profile pic */
+      .profile-pic{
+        /* margin: 10%; */
+        position: relative;
+        width: 50%;
+      }
+
+      img{
+          opacity: 1;
+          display: block;
+          width: 475px;
+          height: auto;
+          transition: .5s ease;
+          backface-visibility: hidden;
+
+      }
+
+      .middle{
+          transition: .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%)
+      }
+
+      .profile-pic:hover img{
+        opacity: 0.3;
+      }
+
+      .profile-pic:hover .middle{
+          opacity: 1;
+      }
+
+      .text{
+          background-color: #4CAF50;
+          color: white;
+          font-size: 32px;
+          padding: 16px 32px;
+      }
+     /* img:hover { 
+           /* border:2px solid red; 
+         box-shadow: 0 0 10px #333;  
+         -webkit-box-shadow: 0 0 10px #333;  
+         -moz-box-shadow: 0 0 10px #333;  
+         -o-box-shadow: 0 0 10px #333;  
+         -ms-box-shadow: 0 0 10px #333; 
+          filter: brightness(50%);
+        } 
+      */
+     
