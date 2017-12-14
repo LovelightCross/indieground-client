@@ -17,9 +17,31 @@
     flex: 1 1 auto;
 }
 
+.background {
+    background-image: url('https://www.secretstages.net/wp-content/uploads/2017/05/richard-daniel-slide.jpg');
+    background-size: cover;
+    background-position-y: 10%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 5em;
+    border: 2px solid white;
+}
+
 mat-card {
-    background-color: #636363;
-    color: #74c6de;
+    background-color: black;
+    color: white;
+}
+
+mat-card-subtitle {
+    color: white;
 }
 
 .RD-avatar {

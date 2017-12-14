@@ -1,85 +1,92 @@
 <mat-toolbar class="navbar">
-    <span class="nav-span">
-        <button mat-button class="nav-buttons" routerLink='/'>Home</button>
-        <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
-        <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
-        <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
-        <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
-    </span>
+  <span class="nav-span">
+    <button mat-button class="nav-buttons" routerLink='/'>Home</button>
+    <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
+    <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
+    <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
+    <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
+  </span>
 </mat-toolbar>
+<div class='background'>
+  <h1>Richard Daniel</h1>
+</div>
 <div class='left-div'>
-    <mat-card>
-      <img mat-card-img src='https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/24852656_1805939092770702_3328950631350513835_n.jpg?oh=6d448b9cfa0a713111536f7aa9302f73&oe=5AD2CF33' class='RD-avatar'>
-      <mat-card-title>Richard Daniel</mat-card-title>
-      <mat-card-subtitle>Hip-Hop/R&B Switchblade</mat-card-subtitle>
+  <mat-card>
+    <!-- <mat-card-title>Richard Daniel</mat-card-title> -->
+    <mat-card-subtitle>Hip-Hop/R&B Switchblade</mat-card-subtitle>
     <hr>
     <mat-card-subtitle>Basic Info</mat-card-subtitle>
     <mat-card-content>
-      <p>Hailing from Birmingham, AL, Richard Daniel is a hip-hop artist who captures a polished delivery and combines it with a natural southern charm. Whether a heartfelt croon, or a fiery lyric filled verse, he showcases his personal story and many musical ideas through whichever avenue will have him. His latest album, “Sedan”, is a mixture of feel-good tracks and songs that will make you sit back and contemplate. The main goal Daniel wants to achieve through his music is to create something that people can use to find common ground and relate to one another.</p>
+      <p>Hailing from Birmingham, AL, Richard Daniel is a hip-hop artist who captures a polished delivery and combines it with
+        a natural southern charm. Whether a heartfelt croon, or a fiery lyric filled verse, he showcases his personal story
+        and many musical ideas through whichever avenue will have him. His latest album, “Sedan”, is a mixture of feel-good
+        tracks and songs that will make you sit back and contemplate. The main goal Daniel wants to achieve through his music
+        is to create something that people can use to find common ground and relate to one another.</p>
     </mat-card-content>
-    </mat-card>
-    </div>
-    
-    <div class='middle-div'>
-      <mat-card>
-        <mat-card-title class='title'>RICHARD DANIEL</mat-card-title>
-        </mat-card>
-        <mat-card class='feed-card'>
-        <mat-card-subtitle >SHOW</mat-card-subtitle>
-      <img mat-card-image class='show-img' src='https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/23795316_1753354221342965_5274393780869227061_n.jpg?oh=8c88e4b2bd252f18fb4e969f1738346d&oe=5A90995B'>
-        <p>Lobotomix 8 Year Anniversary Show</p>
-        <p>Friday November 24th, at 6 PM - Until</p>
-        <p>@ Saturn</p>
-        <p>$12</p>
-      </mat-card>
-    
-      <mat-card class='feed-card'>
-        <mat-card-subtitle>MEDIA</mat-card-subtitle>
-        <h3>Check Out Richard Daniel on the Fill In The Pieces Podcast!</h3>
-        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FFillinthepieces%2Fvideos%2F1976169089293276%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-      </mat-card>
-    
-      <!-- <mat-card class='feed-card'>
+  </mat-card>
+  <mat-card class='feed-card'>
+    <br>
+    <img mat-card-image class='show-img' src='https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/23795316_1753354221342965_5274393780869227061_n.jpg?oh=8c88e4b2bd252f18fb4e969f1738346d&oe=5A90995B'>
+    <p>Lobotomix 8 Year Anniversary Show</p>
+    <p>Friday November 24th, at 6 PM - Until</p>
+    <p>@ Saturn</p>
+    <p>$12</p>
+  </mat-card>
+</div>
+
+<div class='middle-div'>
+  <h1 class='middle-text'>Music</h1>
+  <iframe width="960" height="430" src="https://www.youtube.com/embed/58n5ckpLrWA" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
+    <br>
+    <br>
+  <iframe width="960" height="430" src="https://www.youtube.com/embed/393yfAeLIxU" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
+    <br>
+    <br>
+    <iframe width="960" height="430" src="https://www.youtube.com/embed/Q8c3wGZ_uts" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+  <!-- <mat-card class='feed-card'>
       <mat-card-subtitle>MEDIA</mat-card-subtitle>
       <img mat-card-image class='show-img' src='https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/24232264_1761581077186946_8606422101104065820_n.jpg?oh=57b8b3f9028ba2fd0273f94cc5754948&oe=5A90E60D'>
       <p>C1UB: AM just got a new shipment of C1ub hoodies! Pick one up today!</p>
       
     </mat-card> -->
+</div>
+
+<div class='right-div'>
+  <mat-card>
+    <div class="item twitter">
+      <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: '_ricardeaux' }" [opts]="{tweetLimit: 5}"></ng4-twitter-timeline>
     </div>
-    
-    <div class='right-div'>
-      <mat-card>
-          <div class="item twitter">
-              <ng4-twitter-timeline class="timeline" [dataSrc]="{ sourceType: 'profile', screenName: '_ricardeaux' }" [opts]="{tweetLimit: 5}"></ng4-twitter-timeline>
-          </div>
-      </mat-card>
-    </div>
-    
-    <div class='sc-div'>
-        <iframe width="75%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/377452796&amp;color=%2300aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <!-- 
+  </mat-card>
+</div>
+
+<!-- <div class='sc-div'>
+  <iframe width="75%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/377452796&amp;color=%2300aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 
     
     
     <mat-toolbar id="head">
