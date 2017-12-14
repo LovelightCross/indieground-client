@@ -1,37 +1,44 @@
 <mat-toolbar class="navbar">
-    <span class="nav-span">
-        <button mat-button class="nav-buttons" routerLink='/'>Home</button>
-        <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
-        <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
-        <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
-        <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
-    </span>
+  <span class="nav-span">
+    <button mat-button class="nav-buttons" routerLink='/'>Home</button>
+    <button mat-button class="nav-buttons" routerLink='/artists'>Artists</button>
+    <button mat-button class="nav-buttons" routerLink='/music'>Music</button>
+    <button mat-button class="nav-buttons" routerLink='/shows'>Shows</button>
+    <button mat-button class="nav-buttons" routerLink='/contact-us'>Contact Us</button>
+  </span>
 </mat-toolbar>
+<div class='background'></div>
+
 <div class='left-div'>
+
   <mat-card>
-    <img mat-card-img src='http://bit.ly/2AQBCsx' class='AM-avatar'>
-    <mat-card-title>C1UB: A.M.</mat-card-title>
-    <mat-card-subtitle>Hard Hitting Hip-Hop</mat-card-subtitle>
+    <mat-card-title>C1UB A.M.</mat-card-title>
+    <mat-card-subtitle>HipHop Collaboritive</mat-card-subtitle>
     <hr>
     <mat-card-subtitle>Basic Info</mat-card-subtitle>
     <mat-card-content>
-      <p>C1UB: A.M. is a hip-hop collective hailing from Birmingham, AL and consisting of 3 members — Love N Sin, WhoSaine Jett,
+      <p>C1UB:A.M. is a hip-hop collective hailing from Birmingham, AL and consisting of 3 members — Love N Sin, WhoSaine Jett,
         and ChriStyle. While still under the radar, their aggressive performances at open mic nights has landed the C1UB
-        some opening show slots for big name artists such as Curren$y, Big Krit, Hopsin, Bubba Sparxxx, Mod Sun and more.
-        ChriStyle and Love N Sin formed the group in November of 2011 with Jett joining shortly after its birth based on
-        common interests. C1UB AM’s sound varies between many styles of hip-hop, from North to South. You can expect drum
-        driven production topped off with melodic encounters and in house production. Lyricism is a primary focus, and the
-        C1UB is commited to getting their point across by delivering their lyrics with energy and focus. Wake up to the tune
-        of the C1UB:A.M.!</p>
+        some opening show slots for big name artists such as Curren$y, Big Krit, Hopsin, Bubba Sparxxx, Mod Sun and more.</p>
     </mat-card-content>
   </mat-card>
-</div>
-
-<div class='middle-div'>
-  <mat-card>
-    <mat-card-title class='title'>C1UB: AM</mat-card-title>
-  </mat-card>
   <mat-card class='feed-card'>
+    <!-- <br>
+            <img mat-card-image class='show-img' src='http://bit.ly/2jQiio8'>
+            <p>The Monastery Presents “The Basement” (Charity Edition)</p>
+            <p>Saturday, December 9 at 7 PM - 11 PM</p>
+            <p>@ The Firehouse</p>
+            <p>$7 Before 8pm -- $10 at the Door</p>
+          </mat-card>
+          <mat-card class='feed-card'>
+            <br>
+            <img mat-card-image class='show-img' src='http://bit.ly/2ANIpDy'>
+            <p>One Year Anniversary and Holiday Get Down!</p>
+            <p>Friday, December 1 at 7 PM - 10 PM</p>
+            <p>@ Club Duquette</p>
+            <p>FREE!</p>
+          </mat-card> -->
+
     <mat-card-subtitle>SHOW</mat-card-subtitle>
     <img mat-card-image class='show-img' src='https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/23795316_1753354221342965_5274393780869227061_n.jpg?oh=8c88e4b2bd252f18fb4e969f1738346d&oe=5A90995B'>
     <p>Lobotomix 8 Year Anniversary Show</p>
@@ -39,22 +46,30 @@
     <p>@ Saturn</p>
     <p>$12</p>
   </mat-card>
-
-  <mat-card class='feed-card'>
-    <mat-card-subtitle>MEDIA</mat-card-subtitle>
-    <h3>The C1ub at the Curren$y Pilot Talk Trilogy Tour in Birmingham</h3>
-    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fchris.butler.1088%2Fvideos%2F1762938763717844%2F&show_text=0&width=476"
-      width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"
-      allowFullScreen="true"></iframe>
-  </mat-card>
-
+  <br>
+  
   <mat-card class='feed-card'>
     <mat-card-subtitle>MEDIA</mat-card-subtitle>
     <img mat-card-image class='show-img' src='https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/24232264_1761581077186946_8606422101104065820_n.jpg?oh=57b8b3f9028ba2fd0273f94cc5754948&oe=5A90E60D'>
     <p>C1UB: AM just got a new shipment of C1ub hoodies! Pick one up today!</p>
 
-  </mat-card>
+
+</mat-card>
 </div>
+
+
+<div class='middle-div'>
+  <h1 class='middle-text'>Music</h1>
+  <iframe width="960" height="430" src="https://www.youtube.com/embed/1GxCx47EF_0" frameborder="0" gesture="media" allow="encrypted-media"
+    allowfullscreen></iframe>
+  <br>
+  <br>
+  <iframe width="960" height="430" src="https://www.youtube.com/embed/BoBQVLGeyj4" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+  <br>
+  <br>
+  <iframe width="960" height="430" src="https://www.youtube.com/embed/aIchMOXVBKg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+</div>
+
 
 <div class='right-div'>
   <mat-card>
@@ -65,7 +80,6 @@
 </div>
 
 <div class='sc-div'>
-  <iframe width="75%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/5371657&amp;color=%2300aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
 
 
 

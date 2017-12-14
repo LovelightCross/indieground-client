@@ -137,3 +137,14 @@ mat-card {
           width: 100%;
       }
   }  */
+  .background{
+    background-image: url('http://bit.ly/2ytMtG0');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  }
+  
