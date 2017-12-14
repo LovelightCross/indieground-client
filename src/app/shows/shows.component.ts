@@ -8,19 +8,20 @@ import { ShowsService } from '../services/shows.sv';
   styleUrls: ['./shows.component.css']
 })
 export class ShowsComponent implements OnInit {
-  shows:any
+   shows:any
 
-  constructor(
-    private showsService: ShowsService
-  ) { }
+   constructor(
+     private showsService: ShowsService
+   ) { }
 
-  getShowInfo(): void {
-    this.showsService.getShowInfo()
-    .subscribe((Response) => this.shows = Response);
-  }
+   getShowInfo(): void {
+     this.showsService.getShowInfo()
+     .subscribe((Response) => this.shows = Response);
+   }
 
-  ngOnInit() {
-    this.getShowInfo();
-  }
-
+   ngOnInit(){
+     this.getShowInfo();
+   
+   
 }
+  }
