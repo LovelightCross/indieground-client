@@ -35,12 +35,15 @@
     border: 2px solid white;
 }
 
-mat-card {
-    background-color: black;
+p {
     color: white;
 }
 
 mat-card-subtitle {
+    color: white;
+}
+
+h1 {
     color: white;
 }
 

@@ -29,11 +29,15 @@
     justify-content: center;
 }
 
+p {
+    color: pink;
+}
+
 .background h1 {
-    color: fuchsia;
+    color: pink;
     text-transform: uppercase;
     font-size: 5em;
-    border: 2px solid fuchsia;
+    border: 2px solid pink;
 }
 
 .LM-avatar {
@@ -76,16 +80,12 @@
 }
 
 .middle-text {
-    color: fuchsia;
+    color: pink;
 }
 
-mat-card {
-    background-color: white;
-    color: fuchsia;
-}
 
 mat-card-subtitle {
-    color: fuchsia;
+    color: pink;
 }
 
 
